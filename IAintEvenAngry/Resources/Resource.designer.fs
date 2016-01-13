@@ -23,10 +23,10 @@ namespace IAintEvenAngry
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException1ba650dd98bb480597fd1e70142789d9 of obj
-    exception ReturnNoneException1ba650dd98bb480597fd1e70142789d9
+    exception ReturnExceptionfc4621ef70b5450d9b1592e0718e19be of obj
+    exception ReturnNoneExceptionfc4621ef70b5450d9b1592e0718e19be
     [<AutoOpen>]
-    module FuncConvertFinalOverload1ba650dd98bb480597fd1e70142789d9 =
+    module FuncConvertFinalOverloadfc4621ef70b5450d9b1592e0718e19be =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -39,7 +39,7 @@ namespace IAintEvenAngry
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
             static member UpdateIdValues  () =
-                ()
+                global.OsmSharp.Android.UI.Resource.String.library_name <- Resource_String.library_name
 
 
     
@@ -97,10 +97,13 @@ namespace IAintEvenAngry
         
         (* partial *)Resource_String () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f040002
+            static member ApplicationName = 2130968578
+            
             // aapt resource value: 0x7f040001
-            static member ApplicationName = 2130968577
+            static member Hello = 2130968577
             
             // aapt resource value: 0x7f040000
-            static member Hello = 2130968576
+            static member library_name = 2130968576
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
