@@ -23,10 +23,10 @@ namespace IAintEvenAngry
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnExceptione85a1a866ab24ffbbec553036fcc0370 of obj
-    exception ReturnNoneExceptione85a1a866ab24ffbbec553036fcc0370
+    exception ReturnException1ba650dd98bb480597fd1e70142789d9 of obj
+    exception ReturnNoneException1ba650dd98bb480597fd1e70142789d9
     [<AutoOpen>]
-    module FuncConvertFinalOverloade85a1a866ab24ffbbec553036fcc0370 =
+    module FuncConvertFinalOverload1ba650dd98bb480597fd1e70142789d9 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -65,8 +65,17 @@ namespace IAintEvenAngry
         
         (* partial *)Resource_Id () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f050002
+            static member buttonLogin = 2131034114
+            
+            // aapt resource value: 0x7f050001
+            static member editTextPassword = 2131034113
+            
             // aapt resource value: 0x7f050000
-            static member MyButton = 2131034112
+            static member editTextUsername = 2131034112
+            
+            // aapt resource value: 0x7f050003
+            static member textViewInformasi = 2131034115
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -77,6 +86,9 @@ namespace IAintEvenAngry
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
             // aapt resource value: 0x7f030000
             static member Main = 2130903040
+            
+            // aapt resource value: 0x7f030001
+            static member Map = 2130903041
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 

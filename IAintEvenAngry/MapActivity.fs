@@ -19,6 +19,6 @@ type MapActivity () =
     override this.OnCreate(bundle) =
         base.OnCreate (bundle)
 
-        this.SetContentView 
+        this.SetContentView(Resource_Layout.Map)
 
     override this.OnBackPressed () = this.MoveTaskToBack (true) |> ignore

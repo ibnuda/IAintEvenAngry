@@ -22,12 +22,21 @@ type MainActivity () =
         // Set our view from the "main" layout resource
         this.SetContentView (Resource_Layout.Main)
 
-        // Get our button from the layout resource, and attach an event to it
-        let button = this.FindViewById<Button>(Resource_Id.MyButton)
-        button.Click.Add (fun args -> 
-            button.Text <- sprintf "%d clicks!" count
-            count <- count + 1
+        let username = this.FindViewById<EditText>(Resource_Id.editTextUsername)
+        let password = this.FindViewById<EditText>(Resource_Id.editTextPassword)
+        let btnLogin = this.FindViewById<Button>(Resource_Id.buttonLogin)
+
+        btnLogin.Click.Add(fun args ->
+            match this.Authenticate username.Text password.Text with
+            | true ->
+                let i = new Intent(this, typeof<MapActivity>)
+                this.Finish()
+                this.StartActivity (i) |> ignore
+            | false ->
+                let i = new Intent(this, typeof<MainActivity>)
+                this.Finish()
+                this.StartActivity (i) |> ignore
         )
 
-
-
+    member this.Authenticate (username: string) (password: string) =
+        username.Equals("ibnu") && password.Equals("asdf")
