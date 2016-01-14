@@ -26,7 +26,7 @@ type MapActivity () =
         this.SetContentView(Resource_Layout.Map)
 
         let layout = new LinearLayout(this)
-        layout.Orientation = Orientation.Vertical
+        layout.Orientation = Orientation.Vertical |> ignore
 
         let myButtTiles = new Button(this)
         myButtTiles.Text <- "Offline map."
