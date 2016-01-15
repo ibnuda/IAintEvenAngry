@@ -2,33 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:minWidth="25px"
-    android:minHeight="25px">
+    android:layout_height="fill_parent">
     <TextView
-        android:text="Ini Layout Map"
+        android:text="Status"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewInformasi" />
-    <Button
-        android:text="Map Offline"
+        android:id="@+id/textViewStatus" />
+    <TextView
+        android:text="Latitude"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonOffline" />
-    <Button
-        android:text="Map Online"
+        android:id="@+id/textViewLatitude" />
+    <TextView
+        android:text="Longitude"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonOnline" />
+        android:id="@+id/textViewLongitude" />
     <Button
-        android:text="Map Vektor"
+        android:text="Cek Posisi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/buttonVector" />
-    <Button
-        android:text="Dari Xam.Plugin"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/buttonXamPlug" />
+        android:id="@+id/buttonCekPosisi" />
 </LinearLayout>

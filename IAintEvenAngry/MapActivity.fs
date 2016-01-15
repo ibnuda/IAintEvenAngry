@@ -28,6 +28,7 @@ type MapActivity () =
         let buttOffline = this.FindViewById<Button>(Resource_Id.buttonOffline)
         let buttOnline = this.FindViewById<Button>(Resource_Id.buttonOnline)
         let buttVektor = this.FindViewById<Button>(Resource_Id.buttonVector)
+        let buttXam = this.FindViewById<Button>(Resource_Id.buttonXamPlug)
 
         buttOffline.Click.Add(fun args ->
             let i = new Intent(this, typeof<OffTilesActivity>)
@@ -46,7 +47,12 @@ type MapActivity () =
             this.Finish ()
             this.StartActivity (i)
         )
-
+        
+        buttXam.Click.Add(fun args ->
+            let i = new Intent(this, typeof<PakaiXamGeoActivity>)
+            this.Finish ()
+            this.StartActivity (i)
+        )
         (* 
         let layout = new LinearLayout(this)
         layout.Orientation = Orientation.Vertical |> ignore

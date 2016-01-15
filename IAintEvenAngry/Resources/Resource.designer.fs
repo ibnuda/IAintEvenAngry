@@ -23,10 +23,10 @@ namespace IAintEvenAngry
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException79f14e53f7f84cf989feabce8b622249 of obj
-    exception ReturnNoneException79f14e53f7f84cf989feabce8b622249
+    exception ReturnException2e5b107366eb4dd1a462e27d9340af9b of obj
+    exception ReturnNoneException2e5b107366eb4dd1a462e27d9340af9b
     [<AutoOpen>]
-    module FuncConvertFinalOverload79f14e53f7f84cf989feabce8b622249 =
+    module FuncConvertFinalOverload2e5b107366eb4dd1a462e27d9340af9b =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -65,6 +65,9 @@ namespace IAintEvenAngry
         
         (* partial *)Resource_Id () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f05000b
+            static member buttonCekPosisi = 2131034123
+            
             // aapt resource value: 0x7f050002
             static member buttonLogin = 2131034114
             
@@ -77,6 +80,9 @@ namespace IAintEvenAngry
             // aapt resource value: 0x7f050006
             static member buttonVector = 2131034118
             
+            // aapt resource value: 0x7f050007
+            static member buttonXamPlug = 2131034119
+            
             // aapt resource value: 0x7f050001
             static member editTextPassword = 2131034113
             
@@ -85,6 +91,15 @@ namespace IAintEvenAngry
             
             // aapt resource value: 0x7f050003
             static member textViewInformasi = 2131034115
+            
+            // aapt resource value: 0x7f050009
+            static member textViewLatitude = 2131034121
+            
+            // aapt resource value: 0x7f05000a
+            static member textViewLongitude = 2131034122
+            
+            // aapt resource value: 0x7f050008
+            static member textViewStatus = 2131034120
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -98,6 +113,9 @@ namespace IAintEvenAngry
             
             // aapt resource value: 0x7f030001
             static member Map = 2130903041
+            
+            // aapt resource value: 0x7f030002
+            static member XamPlug = 2130903042
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 

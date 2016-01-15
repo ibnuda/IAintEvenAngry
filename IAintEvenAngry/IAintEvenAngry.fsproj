@@ -52,9 +52,6 @@
   <ItemGroup>
     <AndroidAsset Include="Assets\AboutAssets.txt" />
     <Compile Include="Resources\Resource.designer.fs" />
-    <Compile Include="VectorMapActivity.fs">
-      <SubType>Code</SubType>
-    </Compile>
     <None Include="Resources\AboutResources.txt" />
     <AndroidResource Include="Resources\layout\Map.axml">
       <SubType>AndroidResource</SubType>
@@ -64,6 +61,12 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
     <Compile Include="Properties\AssemblyInfo.fs" />
     <Content Include="Properties\AndroidManifest.xml" />
+    <Compile Include="PakaiXamGeoActivity.fs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="VectorMapActivity.fs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="OnMapActivity.fs">
       <SubType>Code</SubType>
     </Compile>
@@ -77,12 +80,16 @@
     <None Include="GettingStarted.Xamarin" />
     <None Include="kempen.mbtiles" />
     <Content Include="default.map" />
+    <AndroidResource Include="Resources\layout\XamPlug.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core" />
     <Reference Include="mscorlib" />
     <Reference Include="Mono.Android" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
   </ItemGroup>

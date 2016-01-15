@@ -28,7 +28,7 @@ type VectorMapActivity () =
         this.RequestWindowFeature(global.Android.Views.WindowFeatures.NoTitle) |> ignore
 
         let mutable map = new Map()
-        let mutable screenStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"default.map")
+        let mutable screenStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"IAintEvenAngry.IAintEvenAngry.default.map")
 
         let mutable mvs = new MapViewSurface(this)
         let mutable mv = new MapView(this, mvs)
@@ -36,7 +36,7 @@ type VectorMapActivity () =
         mv.MapMaxZoomLevel <- Nullable 17.0f
         mv.MapMinZoomLevel <- Nullable 12.0f
         mv.MapTilt <- OsmSharp.Units.Angle.Degree(0.0)
-        mv.MapCenter <- new GeoCoordinate(-6.224454, 106.653069)
+        mv.MapCenter <- new GeoCoordinate(51.26361, 4.78620)
         mv.MapZoom <- 16.0f
         mv.MapAllowTilt <- false
 
