@@ -11,4 +11,19 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textViewInformasi" />
+    <Button
+        android:text="Map Offline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOffline" />
+    <Button
+        android:text="Map Online"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOnline" />
+    <Button
+        android:text="Map Vektor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonVector" />
 </LinearLayout>

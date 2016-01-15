@@ -75,6 +75,7 @@
     <Compile Include="MainActivity.fs" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="kempen.mbtiles" />
+    <Content Include="default.map" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core" />

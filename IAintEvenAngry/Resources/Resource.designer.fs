@@ -23,10 +23,10 @@ namespace IAintEvenAngry
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException24a6e376be384efb8603e16712e8cf20 of obj
-    exception ReturnNoneException24a6e376be384efb8603e16712e8cf20
+    exception ReturnException16da13b605024f6daa04d537c5a3ea9c of obj
+    exception ReturnNoneException16da13b605024f6daa04d537c5a3ea9c
     [<AutoOpen>]
-    module FuncConvertFinalOverload24a6e376be384efb8603e16712e8cf20 =
+    module FuncConvertFinalOverload16da13b605024f6daa04d537c5a3ea9c =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -67,6 +67,15 @@ namespace IAintEvenAngry
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
             // aapt resource value: 0x7f050002
             static member buttonLogin = 2131034114
+            
+            // aapt resource value: 0x7f050004
+            static member buttonOffline = 2131034116
+            
+            // aapt resource value: 0x7f050005
+            static member buttonOnline = 2131034117
+            
+            // aapt resource value: 0x7f050006
+            static member buttonVector = 2131034118
             
             // aapt resource value: 0x7f050001
             static member editTextPassword = 2131034113
