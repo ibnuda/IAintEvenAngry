@@ -22,15 +22,22 @@ type PakaiXamGeoActivity () =
 
     this.SetContentView(Resource_Layout.XamPlug)
 
-    let locator: Abstractions.IGeolocator = CrossGeolocator.Current
+    let locator = CrossGeolocator.Current
     locator.DesiredAccuracy <- 50.0
-    // let! posisi = await locator.GetPositionAsync ()
+    // let! posisi = await locator.GetPositionAsync(timeoutMilliseconds: 10000)
+    // let pos = locator.GetPositionAsync()
+    let pos = async {
+        let! posis = locator.GetPositionAsync() |> Async.AwaitTask
+        printfn "waiting..."
+        }
 
     let tvS = this.FindViewById<TextView>(Resource_Id.textViewStatus)
     let tvLat = this.FindViewById<TextView>(Resource_Id.textViewLatitude)
     let tvLong = this.FindViewById<TextView>(Resource_Id.textViewLongitude)
     let buttCek = this.FindViewById<Button>(Resource_Id.buttonCekPosisi)
 
-    buttCek.Click.Add(fun args ->
-        printfn "go go fuck yourself"
+    locator.PositionChanged.Add(fun args ->
+        let position = args.Position
+        tvLat.Text <- position.Latitude.ToString ()
+        tvLong.Text <- position.Longitude.ToString ()
     )

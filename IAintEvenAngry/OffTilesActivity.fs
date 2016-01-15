@@ -30,7 +30,7 @@ type OffTilesActivity () =
         this.RequestWindowFeature(global.Android.Views.WindowFeatures.NoTitle) |> ignore
 
         let mutable map = new Map()
-        map.AddLayer(new LayerMBTile(SQLiteConnection.CreateFrom(Assembly.GetExecutingAssembly().GetManifestResourceStream(@"IAintEvenAngry.IAintEvenAngry.kempen.mbtiles"), "map")))
+        map.AddLayer(new LayerMBTile(SQLiteConnection.CreateFrom(Assembly.GetExecutingAssembly().GetManifestResourceStream(@"IAintEvenAngry.kempen.mbtiles"), "map")))
 
         let mutable mapViewSurface = new MapViewSurface(this)
         // let mutable mapView = new MapView(this, mapViewSurface)

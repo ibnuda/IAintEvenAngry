@@ -28,7 +28,7 @@ type VectorMapActivity () =
         this.RequestWindowFeature(global.Android.Views.WindowFeatures.NoTitle) |> ignore
 
         let mutable map = new Map()
-        let mutable screenStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"IAintEvenAngry.IAintEvenAngry.default.map")
+        let mutable screenStream = Assembly.GetExecutingAssembly().GetManifestResourceStream(@"IAintEvenAngry.default.map")
 
         let mutable mvs = new MapViewSurface(this)
         let mutable mv = new MapView(this, mvs)
