@@ -35,6 +35,18 @@ type MapActivity () =
             this.StartActivity (i)
         )
 
+        buttOnline.Click.Add(fun args ->
+            let i = new Intent(this, typeof<OnMapActivity>)
+            this.Finish ()
+            this.StartActivity (i)
+        )
+
+        buttVektor.Click.Add(fun args ->
+            let i = new Intent(this, typeof<VectorMapActivity>)
+            this.Finish ()
+            this.StartActivity (i)
+        )
+
         (* 
         let layout = new LinearLayout(this)
         layout.Orientation = Orientation.Vertical |> ignore
