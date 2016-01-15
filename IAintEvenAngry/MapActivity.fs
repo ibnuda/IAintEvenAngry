@@ -30,5 +30,20 @@ type MapActivity () =
 
         let myButtTiles = new Button(this)
         myButtTiles.Text <- "Offline map."
+        myButtTiles.Click.Add(fun args ->
+            this.StartActivity(typeof<OffTilesActivity>)
+        )
+
+        let tilesButton = new Button(this)
+        tilesButton.Text <- "Online Map"
+        tilesButton.Click.Add(fun args ->
+            this.StartActivity(typeof<OnMapActivity>)
+        )
+
+        let vectorButton = new Button(this)
+        vectorButton.Text <- "Vektor"
+        vectorButton.Click.Add(fun args ->
+            this.StartActivity(typeof<VectorMapActivity>)
+        )
 
     override this.OnBackPressed () = this.MoveTaskToBack (true) |> ignore

@@ -23,10 +23,10 @@ namespace IAintEvenAngry
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException34ce4ed633bd43c5bc5863023f451b9a of obj
-    exception ReturnNoneException34ce4ed633bd43c5bc5863023f451b9a
+    exception ReturnException24a6e376be384efb8603e16712e8cf20 of obj
+    exception ReturnNoneException24a6e376be384efb8603e16712e8cf20
     [<AutoOpen>]
-    module FuncConvertFinalOverload34ce4ed633bd43c5bc5863023f451b9a =
+    module FuncConvertFinalOverload24a6e376be384efb8603e16712e8cf20 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
