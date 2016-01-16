@@ -23,10 +23,10 @@ namespace IAintEvenAngry
     #nowarn "51" // address-of operator can occur in the code
     #nowarn "1183" // unused 'this' reference
     
-    exception ReturnException7305b0a656c24bbca5f222adbfd69270 of obj
-    exception ReturnNoneException7305b0a656c24bbca5f222adbfd69270
+    exception ReturnException4ca27f15f09a40da88cfec8e876696f8 of obj
+    exception ReturnNoneException4ca27f15f09a40da88cfec8e876696f8
     [<AutoOpen>]
-    module FuncConvertFinalOverload7305b0a656c24bbca5f222adbfd69270 =
+    module FuncConvertFinalOverload4ca27f15f09a40da88cfec8e876696f8 =
       // This extension member adds to the FuncConvert type and is the last resort member in the method overloading rules. 
       type global.Microsoft.FSharp.Core.FuncConvert with
           /// A utility function to convert function values from tupled to curried form
@@ -39,7 +39,1503 @@ namespace IAintEvenAngry
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
             static member UpdateIdValues  () =
+                global.AndroidHUD.Resource.Attribute.ahBarColor <- Resource_Attribute.ahBarColor
+                global.AndroidHUD.Resource.Attribute.ahBarLength <- Resource_Attribute.ahBarLength
+                global.AndroidHUD.Resource.Attribute.ahBarWidth <- Resource_Attribute.ahBarWidth
+                global.AndroidHUD.Resource.Attribute.ahCircleColor <- Resource_Attribute.ahCircleColor
+                global.AndroidHUD.Resource.Attribute.ahDelayMillis <- Resource_Attribute.ahDelayMillis
+                global.AndroidHUD.Resource.Attribute.ahRadius <- Resource_Attribute.ahRadius
+                global.AndroidHUD.Resource.Attribute.ahRimColor <- Resource_Attribute.ahRimColor
+                global.AndroidHUD.Resource.Attribute.ahRimWidth <- Resource_Attribute.ahRimWidth
+                global.AndroidHUD.Resource.Attribute.ahSpinSpeed <- Resource_Attribute.ahSpinSpeed
+                global.AndroidHUD.Resource.Attribute.ahText <- Resource_Attribute.ahText
+                global.AndroidHUD.Resource.Attribute.ahTextColor <- Resource_Attribute.ahTextColor
+                global.AndroidHUD.Resource.Attribute.ahTextSize <- Resource_Attribute.ahTextSize
+                global.AndroidHUD.Resource.Drawable.ic_errorstatus <- Resource_Drawable.ic_errorstatus
+                global.AndroidHUD.Resource.Drawable.ic_successstatus <- Resource_Drawable.ic_successstatus
+                global.AndroidHUD.Resource.Drawable.roundedbg <- Resource_Drawable.roundedbg
+                global.AndroidHUD.Resource.Drawable.roundedbgdark <- Resource_Drawable.roundedbgdark
+                global.AndroidHUD.Resource.Id.loadingImage <- Resource_Id.loadingImage
+                global.AndroidHUD.Resource.Id.loadingProgressBar <- Resource_Id.loadingProgressBar
+                global.AndroidHUD.Resource.Id.loadingProgressWheel <- Resource_Id.loadingProgressWheel
+                global.AndroidHUD.Resource.Id.textViewStatus <- Resource_Id.textViewStatus
+                global.AndroidHUD.Resource.Layout.loading <- Resource_Layout.loading
+                global.AndroidHUD.Resource.Layout.loadingimage <- Resource_Layout.loadingimage
+                global.AndroidHUD.Resource.Layout.loadingprogress <- Resource_Layout.loadingprogress
+                global.AndroidHUD.Resource.String.library_name <- Resource_String.library_name
+                global.AndroidHUD.Resource.Styleable.ProgressWheel <- Resource_Styleable.ProgressWheel
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahBarColor <- Resource_Styleable.ProgressWheel_ahBarColor
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahBarLength <- Resource_Styleable.ProgressWheel_ahBarLength
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahBarWidth <- Resource_Styleable.ProgressWheel_ahBarWidth
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahCircleColor <- Resource_Styleable.ProgressWheel_ahCircleColor
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahDelayMillis <- Resource_Styleable.ProgressWheel_ahDelayMillis
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahRadius <- Resource_Styleable.ProgressWheel_ahRadius
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahRimColor <- Resource_Styleable.ProgressWheel_ahRimColor
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahRimWidth <- Resource_Styleable.ProgressWheel_ahRimWidth
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahSpinSpeed <- Resource_Styleable.ProgressWheel_ahSpinSpeed
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahText <- Resource_Styleable.ProgressWheel_ahText
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahTextColor <- Resource_Styleable.ProgressWheel_ahTextColor
+                global.AndroidHUD.Resource.Styleable.ProgressWheel_ahTextSize <- Resource_Styleable.ProgressWheel_ahTextSize
                 global.OsmSharp.Android.UI.Resource.String.library_name <- Resource_String.library_name
+                global.Splat.Resource.String.library_name <- Resource_String.library_name
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_fade_in <- Resource.Animation.abc_fade_in
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_fade_out <- Resource.Animation.abc_fade_out
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_grow_fade_in_from_bottom <- Resource.Animation.abc_grow_fade_in_from_bottom
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_popup_enter <- Resource.Animation.abc_popup_enter
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_popup_exit <- Resource.Animation.abc_popup_exit
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_shrink_fade_out_from_bottom <- Resource.Animation.abc_shrink_fade_out_from_bottom
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_slide_in_bottom <- Resource.Animation.abc_slide_in_bottom
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_slide_in_top <- Resource.Animation.abc_slide_in_top
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_slide_out_bottom <- Resource.Animation.abc_slide_out_bottom
+                global.Xamarin.Forms.Platform.Resource.Animation.abc_slide_out_top <- Resource.Animation.abc_slide_out_top
+                global.Xamarin.Forms.Platform.Resource.Animation.design_fab_in <- Resource.Animation.design_fab_in
+                global.Xamarin.Forms.Platform.Resource.Animation.design_fab_out <- Resource.Animation.design_fab_out
+                global.Xamarin.Forms.Platform.Resource.Animation.design_snackbar_in <- Resource.Animation.design_snackbar_in
+                global.Xamarin.Forms.Platform.Resource.Animation.design_snackbar_out <- Resource.Animation.design_snackbar_out
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarDivider <- Resource_Attribute.actionBarDivider
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarItemBackground <- Resource_Attribute.actionBarItemBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarPopupTheme <- Resource_Attribute.actionBarPopupTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarSize <- Resource_Attribute.actionBarSize
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarSplitStyle <- Resource_Attribute.actionBarSplitStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarStyle <- Resource_Attribute.actionBarStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarTabBarStyle <- Resource_Attribute.actionBarTabBarStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarTabStyle <- Resource_Attribute.actionBarTabStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarTabTextStyle <- Resource_Attribute.actionBarTabTextStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarTheme <- Resource_Attribute.actionBarTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionBarWidgetTheme <- Resource_Attribute.actionBarWidgetTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionButtonStyle <- Resource_Attribute.actionButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionDropDownStyle <- Resource_Attribute.actionDropDownStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionLayout <- Resource_Attribute.actionLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionMenuTextAppearance <- Resource_Attribute.actionMenuTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionMenuTextColor <- Resource_Attribute.actionMenuTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeBackground <- Resource_Attribute.actionModeBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeCloseButtonStyle <- Resource_Attribute.actionModeCloseButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeCloseDrawable <- Resource_Attribute.actionModeCloseDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeCopyDrawable <- Resource_Attribute.actionModeCopyDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeCutDrawable <- Resource_Attribute.actionModeCutDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeFindDrawable <- Resource_Attribute.actionModeFindDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModePasteDrawable <- Resource_Attribute.actionModePasteDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModePopupWindowStyle <- Resource_Attribute.actionModePopupWindowStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeSelectAllDrawable <- Resource_Attribute.actionModeSelectAllDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeShareDrawable <- Resource_Attribute.actionModeShareDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeSplitBackground <- Resource_Attribute.actionModeSplitBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeStyle <- Resource_Attribute.actionModeStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionModeWebSearchDrawable <- Resource_Attribute.actionModeWebSearchDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionOverflowButtonStyle <- Resource_Attribute.actionOverflowButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionOverflowMenuStyle <- Resource_Attribute.actionOverflowMenuStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionProviderClass <- Resource_Attribute.actionProviderClass
+                global.Xamarin.Forms.Platform.Resource.Attribute.actionViewClass <- Resource_Attribute.actionViewClass
+                global.Xamarin.Forms.Platform.Resource.Attribute.activityChooserViewStyle <- Resource_Attribute.activityChooserViewStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.alertDialogButtonGroupStyle <- Resource_Attribute.alertDialogButtonGroupStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.alertDialogCenterButtons <- Resource_Attribute.alertDialogCenterButtons
+                global.Xamarin.Forms.Platform.Resource.Attribute.alertDialogStyle <- Resource_Attribute.alertDialogStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.alertDialogTheme <- Resource_Attribute.alertDialogTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.arrowHeadLength <- Resource_Attribute.arrowHeadLength
+                global.Xamarin.Forms.Platform.Resource.Attribute.arrowShaftLength <- Resource_Attribute.arrowShaftLength
+                global.Xamarin.Forms.Platform.Resource.Attribute.autoCompleteTextViewStyle <- Resource_Attribute.autoCompleteTextViewStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.background <- Resource_Attribute.background
+                global.Xamarin.Forms.Platform.Resource.Attribute.backgroundSplit <- Resource_Attribute.backgroundSplit
+                global.Xamarin.Forms.Platform.Resource.Attribute.backgroundStacked <- Resource_Attribute.backgroundStacked
+                global.Xamarin.Forms.Platform.Resource.Attribute.backgroundTint <- Resource_Attribute.backgroundTint
+                global.Xamarin.Forms.Platform.Resource.Attribute.backgroundTintMode <- Resource_Attribute.backgroundTintMode
+                global.Xamarin.Forms.Platform.Resource.Attribute.barLength <- Resource_Attribute.barLength
+                global.Xamarin.Forms.Platform.Resource.Attribute.behavior_overlapTop <- Resource_Attribute.behavior_overlapTop
+                global.Xamarin.Forms.Platform.Resource.Attribute.borderWidth <- Resource_Attribute.borderWidth
+                global.Xamarin.Forms.Platform.Resource.Attribute.borderlessButtonStyle <- Resource_Attribute.borderlessButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonBarButtonStyle <- Resource_Attribute.buttonBarButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonBarNegativeButtonStyle <- Resource_Attribute.buttonBarNegativeButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonBarNeutralButtonStyle <- Resource_Attribute.buttonBarNeutralButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonBarPositiveButtonStyle <- Resource_Attribute.buttonBarPositiveButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonBarStyle <- Resource_Attribute.buttonBarStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonPanelSideLayout <- Resource_Attribute.buttonPanelSideLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonStyle <- Resource_Attribute.buttonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonStyleSmall <- Resource_Attribute.buttonStyleSmall
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonTint <- Resource_Attribute.buttonTint
+                global.Xamarin.Forms.Platform.Resource.Attribute.buttonTintMode <- Resource_Attribute.buttonTintMode
+                global.Xamarin.Forms.Platform.Resource.Attribute.cardBackgroundColor <- Resource_Attribute.cardBackgroundColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.cardCornerRadius <- Resource_Attribute.cardCornerRadius
+                global.Xamarin.Forms.Platform.Resource.Attribute.cardElevation <- Resource_Attribute.cardElevation
+                global.Xamarin.Forms.Platform.Resource.Attribute.cardMaxElevation <- Resource_Attribute.cardMaxElevation
+                global.Xamarin.Forms.Platform.Resource.Attribute.cardPreventCornerOverlap <- Resource_Attribute.cardPreventCornerOverlap
+                global.Xamarin.Forms.Platform.Resource.Attribute.cardUseCompatPadding <- Resource_Attribute.cardUseCompatPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.checkboxStyle <- Resource_Attribute.checkboxStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.checkedTextViewStyle <- Resource_Attribute.checkedTextViewStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.closeIcon <- Resource_Attribute.closeIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.closeItemLayout <- Resource_Attribute.closeItemLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.collapseContentDescription <- Resource_Attribute.collapseContentDescription
+                global.Xamarin.Forms.Platform.Resource.Attribute.collapseIcon <- Resource_Attribute.collapseIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleGravity <- Resource_Attribute.collapsedTitleGravity
+                global.Xamarin.Forms.Platform.Resource.Attribute.collapsedTitleTextAppearance <- Resource_Attribute.collapsedTitleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.color <- Resource_Attribute.color
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorAccent <- Resource_Attribute.colorAccent
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorButtonNormal <- Resource_Attribute.colorButtonNormal
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorControlActivated <- Resource_Attribute.colorControlActivated
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorControlHighlight <- Resource_Attribute.colorControlHighlight
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorControlNormal <- Resource_Attribute.colorControlNormal
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorPrimary <- Resource_Attribute.colorPrimary
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorPrimaryDark <- Resource_Attribute.colorPrimaryDark
+                global.Xamarin.Forms.Platform.Resource.Attribute.colorSwitchThumbNormal <- Resource_Attribute.colorSwitchThumbNormal
+                global.Xamarin.Forms.Platform.Resource.Attribute.commitIcon <- Resource_Attribute.commitIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentInsetEnd <- Resource_Attribute.contentInsetEnd
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentInsetLeft <- Resource_Attribute.contentInsetLeft
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentInsetRight <- Resource_Attribute.contentInsetRight
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentInsetStart <- Resource_Attribute.contentInsetStart
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentPadding <- Resource_Attribute.contentPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentPaddingBottom <- Resource_Attribute.contentPaddingBottom
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentPaddingLeft <- Resource_Attribute.contentPaddingLeft
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentPaddingRight <- Resource_Attribute.contentPaddingRight
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentPaddingTop <- Resource_Attribute.contentPaddingTop
+                global.Xamarin.Forms.Platform.Resource.Attribute.contentScrim <- Resource_Attribute.contentScrim
+                global.Xamarin.Forms.Platform.Resource.Attribute.controlBackground <- Resource_Attribute.controlBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.customNavigationLayout <- Resource_Attribute.customNavigationLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.defaultQueryHint <- Resource_Attribute.defaultQueryHint
+                global.Xamarin.Forms.Platform.Resource.Attribute.dialogPreferredPadding <- Resource_Attribute.dialogPreferredPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.dialogTheme <- Resource_Attribute.dialogTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.displayOptions <- Resource_Attribute.displayOptions
+                global.Xamarin.Forms.Platform.Resource.Attribute.divider <- Resource_Attribute.divider
+                global.Xamarin.Forms.Platform.Resource.Attribute.dividerHorizontal <- Resource_Attribute.dividerHorizontal
+                global.Xamarin.Forms.Platform.Resource.Attribute.dividerPadding <- Resource_Attribute.dividerPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.dividerVertical <- Resource_Attribute.dividerVertical
+                global.Xamarin.Forms.Platform.Resource.Attribute.drawableSize <- Resource_Attribute.drawableSize
+                global.Xamarin.Forms.Platform.Resource.Attribute.drawerArrowStyle <- Resource_Attribute.drawerArrowStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.dropDownListViewStyle <- Resource_Attribute.dropDownListViewStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.dropdownListPreferredItemHeight <- Resource_Attribute.dropdownListPreferredItemHeight
+                global.Xamarin.Forms.Platform.Resource.Attribute.editTextBackground <- Resource_Attribute.editTextBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.editTextColor <- Resource_Attribute.editTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.editTextStyle <- Resource_Attribute.editTextStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.elevation <- Resource_Attribute.elevation
+                global.Xamarin.Forms.Platform.Resource.Attribute.errorEnabled <- Resource_Attribute.errorEnabled
+                global.Xamarin.Forms.Platform.Resource.Attribute.errorTextAppearance <- Resource_Attribute.errorTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandActivityOverflowButtonDrawable <- Resource_Attribute.expandActivityOverflowButtonDrawable
+                global.Xamarin.Forms.Platform.Resource.Attribute.expanded <- Resource_Attribute.expanded
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleGravity <- Resource_Attribute.expandedTitleGravity
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMargin <- Resource_Attribute.expandedTitleMargin
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginBottom <- Resource_Attribute.expandedTitleMarginBottom
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginEnd <- Resource_Attribute.expandedTitleMarginEnd
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginStart <- Resource_Attribute.expandedTitleMarginStart
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleMarginTop <- Resource_Attribute.expandedTitleMarginTop
+                global.Xamarin.Forms.Platform.Resource.Attribute.expandedTitleTextAppearance <- Resource_Attribute.expandedTitleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.fabSize <- Resource_Attribute.fabSize
+                global.Xamarin.Forms.Platform.Resource.Attribute.gapBetweenBars <- Resource_Attribute.gapBetweenBars
+                global.Xamarin.Forms.Platform.Resource.Attribute.goIcon <- Resource_Attribute.goIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.headerLayout <- Resource_Attribute.headerLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.height <- Resource_Attribute.height
+                global.Xamarin.Forms.Platform.Resource.Attribute.hideOnContentScroll <- Resource_Attribute.hideOnContentScroll
+                global.Xamarin.Forms.Platform.Resource.Attribute.hintAnimationEnabled <- Resource_Attribute.hintAnimationEnabled
+                global.Xamarin.Forms.Platform.Resource.Attribute.hintTextAppearance <- Resource_Attribute.hintTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.homeAsUpIndicator <- Resource_Attribute.homeAsUpIndicator
+                global.Xamarin.Forms.Platform.Resource.Attribute.homeLayout <- Resource_Attribute.homeLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.icon <- Resource_Attribute.icon
+                global.Xamarin.Forms.Platform.Resource.Attribute.iconifiedByDefault <- Resource_Attribute.iconifiedByDefault
+                global.Xamarin.Forms.Platform.Resource.Attribute.indeterminateProgressStyle <- Resource_Attribute.indeterminateProgressStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.initialActivityCount <- Resource_Attribute.initialActivityCount
+                global.Xamarin.Forms.Platform.Resource.Attribute.insetForeground <- Resource_Attribute.insetForeground
+                global.Xamarin.Forms.Platform.Resource.Attribute.isLightTheme <- Resource_Attribute.isLightTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.itemBackground <- Resource_Attribute.itemBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.itemIconTint <- Resource_Attribute.itemIconTint
+                global.Xamarin.Forms.Platform.Resource.Attribute.itemPadding <- Resource_Attribute.itemPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.itemTextAppearance <- Resource_Attribute.itemTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.itemTextColor <- Resource_Attribute.itemTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.keylines <- Resource_Attribute.keylines
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout <- Resource_Attribute.layout
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_anchor <- Resource_Attribute.layout_anchor
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_anchorGravity <- Resource_Attribute.layout_anchorGravity
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_behavior <- Resource_Attribute.layout_behavior
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_collapseMode <- Resource_Attribute.layout_collapseMode
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_collapseParallaxMultiplier <- Resource_Attribute.layout_collapseParallaxMultiplier
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_keyline <- Resource_Attribute.layout_keyline
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_scrollFlags <- Resource_Attribute.layout_scrollFlags
+                global.Xamarin.Forms.Platform.Resource.Attribute.layout_scrollInterpolator <- Resource_Attribute.layout_scrollInterpolator
+                global.Xamarin.Forms.Platform.Resource.Attribute.listChoiceBackgroundIndicator <- Resource_Attribute.listChoiceBackgroundIndicator
+                global.Xamarin.Forms.Platform.Resource.Attribute.listDividerAlertDialog <- Resource_Attribute.listDividerAlertDialog
+                global.Xamarin.Forms.Platform.Resource.Attribute.listItemLayout <- Resource_Attribute.listItemLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.listLayout <- Resource_Attribute.listLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.listPopupWindowStyle <- Resource_Attribute.listPopupWindowStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeight <- Resource_Attribute.listPreferredItemHeight
+                global.Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeightLarge <- Resource_Attribute.listPreferredItemHeightLarge
+                global.Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemHeightSmall <- Resource_Attribute.listPreferredItemHeightSmall
+                global.Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingLeft <- Resource_Attribute.listPreferredItemPaddingLeft
+                global.Xamarin.Forms.Platform.Resource.Attribute.listPreferredItemPaddingRight <- Resource_Attribute.listPreferredItemPaddingRight
+                global.Xamarin.Forms.Platform.Resource.Attribute.logo <- Resource_Attribute.logo
+                global.Xamarin.Forms.Platform.Resource.Attribute.logoDescription <- Resource_Attribute.logoDescription
+                global.Xamarin.Forms.Platform.Resource.Attribute.maxActionInlineWidth <- Resource_Attribute.maxActionInlineWidth
+                global.Xamarin.Forms.Platform.Resource.Attribute.maxButtonHeight <- Resource_Attribute.maxButtonHeight
+                global.Xamarin.Forms.Platform.Resource.Attribute.measureWithLargestChild <- Resource_Attribute.measureWithLargestChild
+                global.Xamarin.Forms.Platform.Resource.Attribute.menu <- Resource_Attribute.menu
+                global.Xamarin.Forms.Platform.Resource.Attribute.multiChoiceItemLayout <- Resource_Attribute.multiChoiceItemLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.navigationContentDescription <- Resource_Attribute.navigationContentDescription
+                global.Xamarin.Forms.Platform.Resource.Attribute.navigationIcon <- Resource_Attribute.navigationIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.navigationMode <- Resource_Attribute.navigationMode
+                global.Xamarin.Forms.Platform.Resource.Attribute.overlapAnchor <- Resource_Attribute.overlapAnchor
+                global.Xamarin.Forms.Platform.Resource.Attribute.paddingEnd <- Resource_Attribute.paddingEnd
+                global.Xamarin.Forms.Platform.Resource.Attribute.paddingStart <- Resource_Attribute.paddingStart
+                global.Xamarin.Forms.Platform.Resource.Attribute.panelBackground <- Resource_Attribute.panelBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.panelMenuListTheme <- Resource_Attribute.panelMenuListTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.panelMenuListWidth <- Resource_Attribute.panelMenuListWidth
+                global.Xamarin.Forms.Platform.Resource.Attribute.popupMenuStyle <- Resource_Attribute.popupMenuStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.popupTheme <- Resource_Attribute.popupTheme
+                global.Xamarin.Forms.Platform.Resource.Attribute.popupWindowStyle <- Resource_Attribute.popupWindowStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.preserveIconSpacing <- Resource_Attribute.preserveIconSpacing
+                global.Xamarin.Forms.Platform.Resource.Attribute.pressedTranslationZ <- Resource_Attribute.pressedTranslationZ
+                global.Xamarin.Forms.Platform.Resource.Attribute.progressBarPadding <- Resource_Attribute.progressBarPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.progressBarStyle <- Resource_Attribute.progressBarStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.queryBackground <- Resource_Attribute.queryBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.queryHint <- Resource_Attribute.queryHint
+                global.Xamarin.Forms.Platform.Resource.Attribute.radioButtonStyle <- Resource_Attribute.radioButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.ratingBarStyle <- Resource_Attribute.ratingBarStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.rippleColor <- Resource_Attribute.rippleColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.searchHintIcon <- Resource_Attribute.searchHintIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.searchIcon <- Resource_Attribute.searchIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.searchViewStyle <- Resource_Attribute.searchViewStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackground <- Resource_Attribute.selectableItemBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.selectableItemBackgroundBorderless <- Resource_Attribute.selectableItemBackgroundBorderless
+                global.Xamarin.Forms.Platform.Resource.Attribute.showAsAction <- Resource_Attribute.showAsAction
+                global.Xamarin.Forms.Platform.Resource.Attribute.showDividers <- Resource_Attribute.showDividers
+                global.Xamarin.Forms.Platform.Resource.Attribute.showText <- Resource_Attribute.showText
+                global.Xamarin.Forms.Platform.Resource.Attribute.singleChoiceItemLayout <- Resource_Attribute.singleChoiceItemLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.spinBars <- Resource_Attribute.spinBars
+                global.Xamarin.Forms.Platform.Resource.Attribute.spinnerDropDownItemStyle <- Resource_Attribute.spinnerDropDownItemStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.spinnerStyle <- Resource_Attribute.spinnerStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.splitTrack <- Resource_Attribute.splitTrack
+                global.Xamarin.Forms.Platform.Resource.Attribute.state_above_anchor <- Resource_Attribute.state_above_anchor
+                global.Xamarin.Forms.Platform.Resource.Attribute.statusBarBackground <- Resource_Attribute.statusBarBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.statusBarScrim <- Resource_Attribute.statusBarScrim
+                global.Xamarin.Forms.Platform.Resource.Attribute.submitBackground <- Resource_Attribute.submitBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.subtitle <- Resource_Attribute.subtitle
+                global.Xamarin.Forms.Platform.Resource.Attribute.subtitleTextAppearance <- Resource_Attribute.subtitleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.subtitleTextColor <- Resource_Attribute.subtitleTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.subtitleTextStyle <- Resource_Attribute.subtitleTextStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.suggestionRowLayout <- Resource_Attribute.suggestionRowLayout
+                global.Xamarin.Forms.Platform.Resource.Attribute.switchMinWidth <- Resource_Attribute.switchMinWidth
+                global.Xamarin.Forms.Platform.Resource.Attribute.switchPadding <- Resource_Attribute.switchPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.switchStyle <- Resource_Attribute.switchStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.switchTextAppearance <- Resource_Attribute.switchTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabBackground <- Resource_Attribute.tabBackground
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabContentStart <- Resource_Attribute.tabContentStart
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabGravity <- Resource_Attribute.tabGravity
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabIndicatorColor <- Resource_Attribute.tabIndicatorColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabIndicatorHeight <- Resource_Attribute.tabIndicatorHeight
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabMaxWidth <- Resource_Attribute.tabMaxWidth
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabMinWidth <- Resource_Attribute.tabMinWidth
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabMode <- Resource_Attribute.tabMode
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabPadding <- Resource_Attribute.tabPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabPaddingBottom <- Resource_Attribute.tabPaddingBottom
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabPaddingEnd <- Resource_Attribute.tabPaddingEnd
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabPaddingStart <- Resource_Attribute.tabPaddingStart
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabPaddingTop <- Resource_Attribute.tabPaddingTop
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabSelectedTextColor <- Resource_Attribute.tabSelectedTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabTextAppearance <- Resource_Attribute.tabTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.tabTextColor <- Resource_Attribute.tabTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAllCaps <- Resource_Attribute.textAllCaps
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAppearanceLargePopupMenu <- Resource_Attribute.textAppearanceLargePopupMenu
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItem <- Resource_Attribute.textAppearanceListItem
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAppearanceListItemSmall <- Resource_Attribute.textAppearanceListItemSmall
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAppearanceSearchResultSubtitle <- Resource_Attribute.textAppearanceSearchResultSubtitle
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAppearanceSearchResultTitle <- Resource_Attribute.textAppearanceSearchResultTitle
+                global.Xamarin.Forms.Platform.Resource.Attribute.textAppearanceSmallPopupMenu <- Resource_Attribute.textAppearanceSmallPopupMenu
+                global.Xamarin.Forms.Platform.Resource.Attribute.textColorAlertDialogListItem <- Resource_Attribute.textColorAlertDialogListItem
+                global.Xamarin.Forms.Platform.Resource.Attribute.textColorSearchUrl <- Resource_Attribute.textColorSearchUrl
+                global.Xamarin.Forms.Platform.Resource.Attribute.theme <- Resource_Attribute.theme
+                global.Xamarin.Forms.Platform.Resource.Attribute.thickness <- Resource_Attribute.thickness
+                global.Xamarin.Forms.Platform.Resource.Attribute.thumbTextPadding <- Resource_Attribute.thumbTextPadding
+                global.Xamarin.Forms.Platform.Resource.Attribute.title <- Resource_Attribute.title
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleEnabled <- Resource_Attribute.titleEnabled
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleMarginBottom <- Resource_Attribute.titleMarginBottom
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleMarginEnd <- Resource_Attribute.titleMarginEnd
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleMarginStart <- Resource_Attribute.titleMarginStart
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleMarginTop <- Resource_Attribute.titleMarginTop
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleMargins <- Resource_Attribute.titleMargins
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleTextAppearance <- Resource_Attribute.titleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleTextColor <- Resource_Attribute.titleTextColor
+                global.Xamarin.Forms.Platform.Resource.Attribute.titleTextStyle <- Resource_Attribute.titleTextStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.toolbarId <- Resource_Attribute.toolbarId
+                global.Xamarin.Forms.Platform.Resource.Attribute.toolbarNavigationButtonStyle <- Resource_Attribute.toolbarNavigationButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.toolbarStyle <- Resource_Attribute.toolbarStyle
+                global.Xamarin.Forms.Platform.Resource.Attribute.track <- Resource_Attribute.track
+                global.Xamarin.Forms.Platform.Resource.Attribute.voiceIcon <- Resource_Attribute.voiceIcon
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowActionBar <- Resource_Attribute.windowActionBar
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowActionBarOverlay <- Resource_Attribute.windowActionBarOverlay
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowActionModeOverlay <- Resource_Attribute.windowActionModeOverlay
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowFixedHeightMajor <- Resource_Attribute.windowFixedHeightMajor
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowFixedHeightMinor <- Resource_Attribute.windowFixedHeightMinor
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowFixedWidthMajor <- Resource_Attribute.windowFixedWidthMajor
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowFixedWidthMinor <- Resource_Attribute.windowFixedWidthMinor
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowMinWidthMajor <- Resource_Attribute.windowMinWidthMajor
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowMinWidthMinor <- Resource_Attribute.windowMinWidthMinor
+                global.Xamarin.Forms.Platform.Resource.Attribute.windowNoTitle <- Resource_Attribute.windowNoTitle
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_action_bar_embed_tabs <- Resource.Boolean.abc_action_bar_embed_tabs
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb <- Resource.Boolean.abc_action_bar_embed_tabs_pre_jb
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive <- Resource.Boolean.abc_action_bar_expanded_action_views_exclusive
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_config_actionMenuItemAllCaps <- Resource.Boolean.abc_config_actionMenuItemAllCaps
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon <- Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_config_closeDialogWhenTouchOutside <- Resource.Boolean.abc_config_closeDialogWhenTouchOutside
+                global.Xamarin.Forms.Platform.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent <- Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent
+                global.Xamarin.Forms.Platform.Resource.Color.abc_background_cache_hint_selector_material_dark <- Resource_Color.abc_background_cache_hint_selector_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.abc_background_cache_hint_selector_material_light <- Resource_Color.abc_background_cache_hint_selector_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.abc_color_highlight_material <- Resource_Color.abc_color_highlight_material
+                global.Xamarin.Forms.Platform.Resource.Color.abc_input_method_navigation_guard <- Resource_Color.abc_input_method_navigation_guard
+                global.Xamarin.Forms.Platform.Resource.Color.abc_primary_text_disable_only_material_dark <- Resource_Color.abc_primary_text_disable_only_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.abc_primary_text_disable_only_material_light <- Resource_Color.abc_primary_text_disable_only_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.abc_primary_text_material_dark <- Resource_Color.abc_primary_text_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.abc_primary_text_material_light <- Resource_Color.abc_primary_text_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.abc_search_url_text <- Resource_Color.abc_search_url_text
+                global.Xamarin.Forms.Platform.Resource.Color.abc_search_url_text_normal <- Resource_Color.abc_search_url_text_normal
+                global.Xamarin.Forms.Platform.Resource.Color.abc_search_url_text_pressed <- Resource_Color.abc_search_url_text_pressed
+                global.Xamarin.Forms.Platform.Resource.Color.abc_search_url_text_selected <- Resource_Color.abc_search_url_text_selected
+                global.Xamarin.Forms.Platform.Resource.Color.abc_secondary_text_material_dark <- Resource_Color.abc_secondary_text_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.abc_secondary_text_material_light <- Resource_Color.abc_secondary_text_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.accent_material_dark <- Resource_Color.accent_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.accent_material_light <- Resource_Color.accent_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.background_floating_material_dark <- Resource_Color.background_floating_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.background_floating_material_light <- Resource_Color.background_floating_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.background_material_dark <- Resource_Color.background_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.background_material_light <- Resource_Color.background_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.bright_foreground_disabled_material_dark <- Resource_Color.bright_foreground_disabled_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.bright_foreground_disabled_material_light <- Resource_Color.bright_foreground_disabled_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.bright_foreground_inverse_material_dark <- Resource_Color.bright_foreground_inverse_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.bright_foreground_inverse_material_light <- Resource_Color.bright_foreground_inverse_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.bright_foreground_material_dark <- Resource_Color.bright_foreground_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.bright_foreground_material_light <- Resource_Color.bright_foreground_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.button_material_dark <- Resource_Color.button_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.button_material_light <- Resource_Color.button_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.cardview_dark_background <- Resource_Color.cardview_dark_background
+                global.Xamarin.Forms.Platform.Resource.Color.cardview_light_background <- Resource_Color.cardview_light_background
+                global.Xamarin.Forms.Platform.Resource.Color.cardview_shadow_end_color <- Resource_Color.cardview_shadow_end_color
+                global.Xamarin.Forms.Platform.Resource.Color.cardview_shadow_start_color <- Resource_Color.cardview_shadow_start_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_end_color <- Resource_Color.design_fab_shadow_end_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_mid_color <- Resource_Color.design_fab_shadow_mid_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_shadow_start_color <- Resource_Color.design_fab_shadow_start_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_end_inner_color <- Resource_Color.design_fab_stroke_end_inner_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_end_outer_color <- Resource_Color.design_fab_stroke_end_outer_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_inner_color <- Resource_Color.design_fab_stroke_top_inner_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_fab_stroke_top_outer_color <- Resource_Color.design_fab_stroke_top_outer_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_snackbar_background_color <- Resource_Color.design_snackbar_background_color
+                global.Xamarin.Forms.Platform.Resource.Color.design_textinput_error_color <- Resource_Color.design_textinput_error_color
+                global.Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_dark <- Resource_Color.dim_foreground_disabled_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.dim_foreground_disabled_material_light <- Resource_Color.dim_foreground_disabled_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.dim_foreground_material_dark <- Resource_Color.dim_foreground_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.dim_foreground_material_light <- Resource_Color.dim_foreground_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.foreground_material_dark <- Resource_Color.foreground_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.foreground_material_light <- Resource_Color.foreground_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.highlighted_text_material_dark <- Resource_Color.highlighted_text_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.highlighted_text_material_light <- Resource_Color.highlighted_text_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.hint_foreground_material_dark <- Resource_Color.hint_foreground_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.hint_foreground_material_light <- Resource_Color.hint_foreground_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.material_blue_grey_800 <- Resource_Color.material_blue_grey_800
+                global.Xamarin.Forms.Platform.Resource.Color.material_blue_grey_900 <- Resource_Color.material_blue_grey_900
+                global.Xamarin.Forms.Platform.Resource.Color.material_blue_grey_950 <- Resource_Color.material_blue_grey_950
+                global.Xamarin.Forms.Platform.Resource.Color.material_deep_teal_200 <- Resource_Color.material_deep_teal_200
+                global.Xamarin.Forms.Platform.Resource.Color.material_deep_teal_500 <- Resource_Color.material_deep_teal_500
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_100 <- Resource_Color.material_grey_100
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_300 <- Resource_Color.material_grey_300
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_50 <- Resource_Color.material_grey_50
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_600 <- Resource_Color.material_grey_600
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_800 <- Resource_Color.material_grey_800
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_850 <- Resource_Color.material_grey_850
+                global.Xamarin.Forms.Platform.Resource.Color.material_grey_900 <- Resource_Color.material_grey_900
+                global.Xamarin.Forms.Platform.Resource.Color.primary_dark_material_dark <- Resource_Color.primary_dark_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.primary_dark_material_light <- Resource_Color.primary_dark_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.primary_material_dark <- Resource_Color.primary_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.primary_material_light <- Resource_Color.primary_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_dark <- Resource_Color.primary_text_default_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.primary_text_default_material_light <- Resource_Color.primary_text_default_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_dark <- Resource_Color.primary_text_disabled_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.primary_text_disabled_material_light <- Resource_Color.primary_text_disabled_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.ripple_material_dark <- Resource_Color.ripple_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.ripple_material_light <- Resource_Color.ripple_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_dark <- Resource_Color.secondary_text_default_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.secondary_text_default_material_light <- Resource_Color.secondary_text_default_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.secondary_text_disabled_material_dark <- Resource_Color.secondary_text_disabled_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.secondary_text_disabled_material_light <- Resource_Color.secondary_text_disabled_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.switch_thumb_disabled_material_dark <- Resource_Color.switch_thumb_disabled_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.switch_thumb_disabled_material_light <- Resource_Color.switch_thumb_disabled_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_dark <- Resource_Color.switch_thumb_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.switch_thumb_material_light <- Resource_Color.switch_thumb_material_light
+                global.Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_dark <- Resource_Color.switch_thumb_normal_material_dark
+                global.Xamarin.Forms.Platform.Resource.Color.switch_thumb_normal_material_light <- Resource_Color.switch_thumb_normal_material_light
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_content_inset_material <- Resource.Dimension.abc_action_bar_content_inset_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_default_height_material <- Resource.Dimension.abc_action_bar_default_height_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_default_padding_end_material <- Resource.Dimension.abc_action_bar_default_padding_end_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_default_padding_start_material <- Resource.Dimension.abc_action_bar_default_padding_start_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_icon_vertical_padding_material <- Resource.Dimension.abc_action_bar_icon_vertical_padding_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_overflow_padding_end_material <- Resource.Dimension.abc_action_bar_overflow_padding_end_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_overflow_padding_start_material <- Resource.Dimension.abc_action_bar_overflow_padding_start_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_progress_bar_size <- Resource.Dimension.abc_action_bar_progress_bar_size
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_stacked_max_height <- Resource.Dimension.abc_action_bar_stacked_max_height
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_stacked_tab_max_width <- Resource.Dimension.abc_action_bar_stacked_tab_max_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material <- Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_bar_subtitle_top_margin_material <- Resource.Dimension.abc_action_bar_subtitle_top_margin_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_button_min_height_material <- Resource.Dimension.abc_action_button_min_height_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_button_min_width_material <- Resource.Dimension.abc_action_button_min_width_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_action_button_min_width_overflow_material <- Resource.Dimension.abc_action_button_min_width_overflow_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_alert_dialog_button_bar_height <- Resource.Dimension.abc_alert_dialog_button_bar_height
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_button_inset_horizontal_material <- Resource.Dimension.abc_button_inset_horizontal_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_button_inset_vertical_material <- Resource.Dimension.abc_button_inset_vertical_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_button_padding_horizontal_material <- Resource.Dimension.abc_button_padding_horizontal_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_button_padding_vertical_material <- Resource.Dimension.abc_button_padding_vertical_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_config_prefDialogWidth <- Resource.Dimension.abc_config_prefDialogWidth
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_control_corner_material <- Resource.Dimension.abc_control_corner_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_control_inset_material <- Resource.Dimension.abc_control_inset_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_control_padding_material <- Resource.Dimension.abc_control_padding_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dialog_list_padding_vertical_material <- Resource.Dimension.abc_dialog_list_padding_vertical_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dialog_min_width_major <- Resource.Dimension.abc_dialog_min_width_major
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dialog_min_width_minor <- Resource.Dimension.abc_dialog_min_width_minor
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dialog_padding_material <- Resource.Dimension.abc_dialog_padding_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dialog_padding_top_material <- Resource.Dimension.abc_dialog_padding_top_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_disabled_alpha_material_dark <- Resource.Dimension.abc_disabled_alpha_material_dark
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_disabled_alpha_material_light <- Resource.Dimension.abc_disabled_alpha_material_light
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dropdownitem_icon_width <- Resource.Dimension.abc_dropdownitem_icon_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dropdownitem_text_padding_left <- Resource.Dimension.abc_dropdownitem_text_padding_left
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_dropdownitem_text_padding_right <- Resource.Dimension.abc_dropdownitem_text_padding_right
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_bottom_material <- Resource.Dimension.abc_edit_text_inset_bottom_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_horizontal_material <- Resource.Dimension.abc_edit_text_inset_horizontal_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_edit_text_inset_top_material <- Resource.Dimension.abc_edit_text_inset_top_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_floating_window_z <- Resource.Dimension.abc_floating_window_z
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_list_item_padding_horizontal_material <- Resource.Dimension.abc_list_item_padding_horizontal_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_panel_menu_list_width <- Resource.Dimension.abc_panel_menu_list_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_search_view_preferred_width <- Resource.Dimension.abc_search_view_preferred_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_search_view_text_min_width <- Resource.Dimension.abc_search_view_text_min_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_switch_padding <- Resource.Dimension.abc_switch_padding
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_body_1_material <- Resource.Dimension.abc_text_size_body_1_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_body_2_material <- Resource.Dimension.abc_text_size_body_2_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_button_material <- Resource.Dimension.abc_text_size_button_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_caption_material <- Resource.Dimension.abc_text_size_caption_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_display_1_material <- Resource.Dimension.abc_text_size_display_1_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_display_2_material <- Resource.Dimension.abc_text_size_display_2_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_display_3_material <- Resource.Dimension.abc_text_size_display_3_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_display_4_material <- Resource.Dimension.abc_text_size_display_4_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_headline_material <- Resource.Dimension.abc_text_size_headline_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_large_material <- Resource.Dimension.abc_text_size_large_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_medium_material <- Resource.Dimension.abc_text_size_medium_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_menu_material <- Resource.Dimension.abc_text_size_menu_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_small_material <- Resource.Dimension.abc_text_size_small_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subhead_material <- Resource.Dimension.abc_text_size_subhead_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_subtitle_material_toolbar <- Resource.Dimension.abc_text_size_subtitle_material_toolbar
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material <- Resource.Dimension.abc_text_size_title_material
+                global.Xamarin.Forms.Platform.Resource.Dimension.abc_text_size_title_material_toolbar <- Resource.Dimension.abc_text_size_title_material_toolbar
+                global.Xamarin.Forms.Platform.Resource.Dimension.cardview_compat_inset_shadow <- Resource.Dimension.cardview_compat_inset_shadow
+                global.Xamarin.Forms.Platform.Resource.Dimension.cardview_default_elevation <- Resource.Dimension.cardview_default_elevation
+                global.Xamarin.Forms.Platform.Resource.Dimension.cardview_default_radius <- Resource.Dimension.cardview_default_radius
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_appbar_elevation <- Resource.Dimension.design_appbar_elevation
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_fab_border_width <- Resource.Dimension.design_fab_border_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_fab_content_size <- Resource.Dimension.design_fab_content_size
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_fab_elevation <- Resource.Dimension.design_fab_elevation
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_fab_size_mini <- Resource.Dimension.design_fab_size_mini
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_fab_size_normal <- Resource.Dimension.design_fab_size_normal
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_fab_translation_z_pressed <- Resource.Dimension.design_fab_translation_z_pressed
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_elevation <- Resource.Dimension.design_navigation_elevation
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_icon_padding <- Resource.Dimension.design_navigation_icon_padding
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_icon_size <- Resource.Dimension.design_navigation_icon_size
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_max_width <- Resource.Dimension.design_navigation_max_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_padding_bottom <- Resource.Dimension.design_navigation_padding_bottom
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_padding_top_default <- Resource.Dimension.design_navigation_padding_top_default
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_navigation_separator_vertical_padding <- Resource.Dimension.design_navigation_separator_vertical_padding
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_action_inline_max_width <- Resource.Dimension.design_snackbar_action_inline_max_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_background_corner_radius <- Resource.Dimension.design_snackbar_background_corner_radius
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_elevation <- Resource.Dimension.design_snackbar_elevation
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_extra_spacing_horizontal <- Resource.Dimension.design_snackbar_extra_spacing_horizontal
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_max_width <- Resource.Dimension.design_snackbar_max_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_min_width <- Resource.Dimension.design_snackbar_min_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_padding_horizontal <- Resource.Dimension.design_snackbar_padding_horizontal
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_padding_vertical <- Resource.Dimension.design_snackbar_padding_vertical
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_padding_vertical_2lines <- Resource.Dimension.design_snackbar_padding_vertical_2lines
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_snackbar_text_size <- Resource.Dimension.design_snackbar_text_size
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_tab_max_width <- Resource.Dimension.design_tab_max_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.design_tab_min_width <- Resource.Dimension.design_tab_min_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.dialog_fixed_height_major <- Resource.Dimension.dialog_fixed_height_major
+                global.Xamarin.Forms.Platform.Resource.Dimension.dialog_fixed_height_minor <- Resource.Dimension.dialog_fixed_height_minor
+                global.Xamarin.Forms.Platform.Resource.Dimension.dialog_fixed_width_major <- Resource.Dimension.dialog_fixed_width_major
+                global.Xamarin.Forms.Platform.Resource.Dimension.dialog_fixed_width_minor <- Resource.Dimension.dialog_fixed_width_minor
+                global.Xamarin.Forms.Platform.Resource.Dimension.disabled_alpha_material_dark <- Resource.Dimension.disabled_alpha_material_dark
+                global.Xamarin.Forms.Platform.Resource.Dimension.disabled_alpha_material_light <- Resource.Dimension.disabled_alpha_material_light
+                global.Xamarin.Forms.Platform.Resource.Dimension.highlight_alpha_material_colored <- Resource.Dimension.highlight_alpha_material_colored
+                global.Xamarin.Forms.Platform.Resource.Dimension.highlight_alpha_material_dark <- Resource.Dimension.highlight_alpha_material_dark
+                global.Xamarin.Forms.Platform.Resource.Dimension.highlight_alpha_material_light <- Resource.Dimension.highlight_alpha_material_light
+                global.Xamarin.Forms.Platform.Resource.Dimension.notification_large_icon_height <- Resource.Dimension.notification_large_icon_height
+                global.Xamarin.Forms.Platform.Resource.Dimension.notification_large_icon_width <- Resource.Dimension.notification_large_icon_width
+                global.Xamarin.Forms.Platform.Resource.Dimension.notification_subtext_size <- Resource.Dimension.notification_subtext_size
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ab_share_pack_mtrl_alpha <- Resource_Drawable.abc_ab_share_pack_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_action_bar_item_background_material <- Resource_Drawable.abc_action_bar_item_background_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_borderless_material <- Resource_Drawable.abc_btn_borderless_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_material <- Resource_Drawable.abc_btn_check_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_to_on_mtrl_000 <- Resource_Drawable.abc_btn_check_to_on_mtrl_000
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_check_to_on_mtrl_015 <- Resource_Drawable.abc_btn_check_to_on_mtrl_015
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_colored_material <- Resource_Drawable.abc_btn_colored_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_default_mtrl_shape <- Resource_Drawable.abc_btn_default_mtrl_shape
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_material <- Resource_Drawable.abc_btn_radio_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 <- Resource_Drawable.abc_btn_radio_to_on_mtrl_000
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 <- Resource_Drawable.abc_btn_radio_to_on_mtrl_015
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha <- Resource_Drawable.abc_btn_rating_star_off_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha <- Resource_Drawable.abc_btn_rating_star_on_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 <- Resource_Drawable.abc_btn_switch_to_on_mtrl_00001
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 <- Resource_Drawable.abc_btn_switch_to_on_mtrl_00012
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_cab_background_internal_bg <- Resource_Drawable.abc_cab_background_internal_bg
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_cab_background_top_material <- Resource_Drawable.abc_cab_background_top_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_cab_background_top_mtrl_alpha <- Resource_Drawable.abc_cab_background_top_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_control_background_material <- Resource_Drawable.abc_control_background_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_dialog_material_background_dark <- Resource_Drawable.abc_dialog_material_background_dark
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_dialog_material_background_light <- Resource_Drawable.abc_dialog_material_background_light
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_edit_text_material <- Resource_Drawable.abc_edit_text_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha <- Resource_Drawable.abc_ic_ab_back_mtrl_am_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_clear_mtrl_alpha <- Resource_Drawable.abc_ic_clear_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha <- Resource_Drawable.abc_ic_commit_search_api_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha <- Resource_Drawable.abc_ic_go_search_api_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha <- Resource_Drawable.abc_ic_menu_copy_mtrl_am_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha <- Resource_Drawable.abc_ic_menu_cut_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha <- Resource_Drawable.abc_ic_menu_moreoverflow_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha <- Resource_Drawable.abc_ic_menu_paste_mtrl_am_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha <- Resource_Drawable.abc_ic_menu_selectall_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_menu_share_mtrl_alpha <- Resource_Drawable.abc_ic_menu_share_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_search_api_mtrl_alpha <- Resource_Drawable.abc_ic_search_api_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha <- Resource_Drawable.abc_ic_voice_search_api_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_item_background_holo_dark <- Resource_Drawable.abc_item_background_holo_dark
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_item_background_holo_light <- Resource_Drawable.abc_item_background_holo_light
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_divider_mtrl_alpha <- Resource_Drawable.abc_list_divider_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_focused_holo <- Resource_Drawable.abc_list_focused_holo
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_longpressed_holo <- Resource_Drawable.abc_list_longpressed_holo
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_pressed_holo_dark <- Resource_Drawable.abc_list_pressed_holo_dark
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_pressed_holo_light <- Resource_Drawable.abc_list_pressed_holo_light
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_selector_background_transition_holo_dark <- Resource_Drawable.abc_list_selector_background_transition_holo_dark
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_selector_background_transition_holo_light <- Resource_Drawable.abc_list_selector_background_transition_holo_light
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_selector_disabled_holo_dark <- Resource_Drawable.abc_list_selector_disabled_holo_dark
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_selector_disabled_holo_light <- Resource_Drawable.abc_list_selector_disabled_holo_light
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_selector_holo_dark <- Resource_Drawable.abc_list_selector_holo_dark
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_list_selector_holo_light <- Resource_Drawable.abc_list_selector_holo_light
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult <- Resource_Drawable.abc_menu_hardkey_panel_mtrl_mult
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_popup_background_mtrl_mult <- Resource_Drawable.abc_popup_background_mtrl_mult
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_ratingbar_full_material <- Resource_Drawable.abc_ratingbar_full_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_spinner_mtrl_am_alpha <- Resource_Drawable.abc_spinner_mtrl_am_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_spinner_textfield_background_material <- Resource_Drawable.abc_spinner_textfield_background_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_switch_thumb_material <- Resource_Drawable.abc_switch_thumb_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_switch_track_mtrl_alpha <- Resource_Drawable.abc_switch_track_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_tab_indicator_material <- Resource_Drawable.abc_tab_indicator_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_tab_indicator_mtrl_alpha <- Resource_Drawable.abc_tab_indicator_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_text_cursor_material <- Resource_Drawable.abc_text_cursor_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_activated_mtrl_alpha <- Resource_Drawable.abc_textfield_activated_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_default_mtrl_alpha <- Resource_Drawable.abc_textfield_default_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha <- Resource_Drawable.abc_textfield_search_activated_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_search_default_mtrl_alpha <- Resource_Drawable.abc_textfield_search_default_mtrl_alpha
+                global.Xamarin.Forms.Platform.Resource.Drawable.abc_textfield_search_material <- Resource_Drawable.abc_textfield_search_material
+                global.Xamarin.Forms.Platform.Resource.Drawable.design_fab_background <- Resource_Drawable.design_fab_background
+                global.Xamarin.Forms.Platform.Resource.Drawable.design_snackbar_background <- Resource_Drawable.design_snackbar_background
+                global.Xamarin.Forms.Platform.Resource.Drawable.notification_template_icon_bg <- Resource_Drawable.notification_template_icon_bg
+                global.Xamarin.Forms.Platform.Resource.Id.action0 <- Resource_Id.action0
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar <- Resource_Id.action_bar
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar_activity_content <- Resource_Id.action_bar_activity_content
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar_container <- Resource_Id.action_bar_container
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar_root <- Resource_Id.action_bar_root
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar_spinner <- Resource_Id.action_bar_spinner
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar_subtitle <- Resource_Id.action_bar_subtitle
+                global.Xamarin.Forms.Platform.Resource.Id.action_bar_title <- Resource_Id.action_bar_title
+                global.Xamarin.Forms.Platform.Resource.Id.action_context_bar <- Resource_Id.action_context_bar
+                global.Xamarin.Forms.Platform.Resource.Id.action_divider <- Resource_Id.action_divider
+                global.Xamarin.Forms.Platform.Resource.Id.action_menu_divider <- Resource_Id.action_menu_divider
+                global.Xamarin.Forms.Platform.Resource.Id.action_menu_presenter <- Resource_Id.action_menu_presenter
+                global.Xamarin.Forms.Platform.Resource.Id.action_mode_bar <- Resource_Id.action_mode_bar
+                global.Xamarin.Forms.Platform.Resource.Id.action_mode_bar_stub <- Resource_Id.action_mode_bar_stub
+                global.Xamarin.Forms.Platform.Resource.Id.action_mode_close_button <- Resource_Id.action_mode_close_button
+                global.Xamarin.Forms.Platform.Resource.Id.activity_chooser_view_content <- Resource_Id.activity_chooser_view_content
+                global.Xamarin.Forms.Platform.Resource.Id.alertTitle <- Resource_Id.alertTitle
+                global.Xamarin.Forms.Platform.Resource.Id.always <- Resource_Id.always
+                global.Xamarin.Forms.Platform.Resource.Id.beginning <- Resource_Id.beginning
+                global.Xamarin.Forms.Platform.Resource.Id.bottom <- Resource_Id.bottom
+                global.Xamarin.Forms.Platform.Resource.Id.buttonPanel <- Resource_Id.buttonPanel
+                global.Xamarin.Forms.Platform.Resource.Id.cancel_action <- Resource_Id.cancel_action
+                global.Xamarin.Forms.Platform.Resource.Id.center <- Resource_Id.center
+                global.Xamarin.Forms.Platform.Resource.Id.center_horizontal <- Resource_Id.center_horizontal
+                global.Xamarin.Forms.Platform.Resource.Id.center_vertical <- Resource_Id.center_vertical
+                global.Xamarin.Forms.Platform.Resource.Id.checkbox <- Resource_Id.checkbox
+                global.Xamarin.Forms.Platform.Resource.Id.chronometer <- Resource_Id.chronometer
+                global.Xamarin.Forms.Platform.Resource.Id.clip_horizontal <- Resource_Id.clip_horizontal
+                global.Xamarin.Forms.Platform.Resource.Id.clip_vertical <- Resource_Id.clip_vertical
+                global.Xamarin.Forms.Platform.Resource.Id.collapseActionView <- Resource_Id.collapseActionView
+                global.Xamarin.Forms.Platform.Resource.Id.contentPanel <- Resource_Id.contentPanel
+                global.Xamarin.Forms.Platform.Resource.Id.custom <- Resource_Id.custom
+                global.Xamarin.Forms.Platform.Resource.Id.customPanel <- Resource_Id.customPanel
+                global.Xamarin.Forms.Platform.Resource.Id.decor_content_parent <- Resource_Id.decor_content_parent
+                global.Xamarin.Forms.Platform.Resource.Id.default_activity_button <- Resource_Id.default_activity_button
+                global.Xamarin.Forms.Platform.Resource.Id.disableHome <- Resource_Id.disableHome
+                global.Xamarin.Forms.Platform.Resource.Id.edit_query <- Resource_Id.edit_query
+                global.Xamarin.Forms.Platform.Resource.Id.end <- Resource_Id.end
+                global.Xamarin.Forms.Platform.Resource.Id.end_padder <- Resource_Id.end_padder
+                global.Xamarin.Forms.Platform.Resource.Id.enterAlways <- Resource_Id.enterAlways
+                global.Xamarin.Forms.Platform.Resource.Id.enterAlwaysCollapsed <- Resource_Id.enterAlwaysCollapsed
+                global.Xamarin.Forms.Platform.Resource.Id.exitUntilCollapsed <- Resource_Id.exitUntilCollapsed
+                global.Xamarin.Forms.Platform.Resource.Id.expand_activities_button <- Resource_Id.expand_activities_button
+                global.Xamarin.Forms.Platform.Resource.Id.expanded_menu <- Resource_Id.expanded_menu
+                global.Xamarin.Forms.Platform.Resource.Id.fill <- Resource_Id.fill
+                global.Xamarin.Forms.Platform.Resource.Id.fill_horizontal <- Resource_Id.fill_horizontal
+                global.Xamarin.Forms.Platform.Resource.Id.fill_vertical <- Resource_Id.fill_vertical
+                global.Xamarin.Forms.Platform.Resource.Id.fixed <- Resource_Id.fixed
+                global.Xamarin.Forms.Platform.Resource.Id.home <- Resource_Id.home
+                global.Xamarin.Forms.Platform.Resource.Id.homeAsUp <- Resource_Id.homeAsUp
+                global.Xamarin.Forms.Platform.Resource.Id.icon <- Resource_Id.icon
+                global.Xamarin.Forms.Platform.Resource.Id.ifRoom <- Resource_Id.ifRoom
+                global.Xamarin.Forms.Platform.Resource.Id.image <- Resource_Id.image
+                global.Xamarin.Forms.Platform.Resource.Id.info <- Resource_Id.info
+                global.Xamarin.Forms.Platform.Resource.Id.left <- Resource_Id.left
+                global.Xamarin.Forms.Platform.Resource.Id.line1 <- Resource_Id.line1
+                global.Xamarin.Forms.Platform.Resource.Id.line3 <- Resource_Id.line3
+                global.Xamarin.Forms.Platform.Resource.Id.listMode <- Resource_Id.listMode
+                global.Xamarin.Forms.Platform.Resource.Id.list_item <- Resource_Id.list_item
+                global.Xamarin.Forms.Platform.Resource.Id.media_actions <- Resource_Id.media_actions
+                global.Xamarin.Forms.Platform.Resource.Id.middle <- Resource_Id.middle
+                global.Xamarin.Forms.Platform.Resource.Id.mini <- Resource_Id.mini
+                global.Xamarin.Forms.Platform.Resource.Id.multiply <- Resource_Id.multiply
+                global.Xamarin.Forms.Platform.Resource.Id.never <- Resource_Id.never
+                global.Xamarin.Forms.Platform.Resource.Id.none <- Resource_Id.none
+                global.Xamarin.Forms.Platform.Resource.Id.normal <- Resource_Id.normal
+                global.Xamarin.Forms.Platform.Resource.Id.parallax <- Resource_Id.parallax
+                global.Xamarin.Forms.Platform.Resource.Id.parentPanel <- Resource_Id.parentPanel
+                global.Xamarin.Forms.Platform.Resource.Id.pin <- Resource_Id.pin
+                global.Xamarin.Forms.Platform.Resource.Id.progress_circular <- Resource_Id.progress_circular
+                global.Xamarin.Forms.Platform.Resource.Id.progress_horizontal <- Resource_Id.progress_horizontal
+                global.Xamarin.Forms.Platform.Resource.Id.radio <- Resource_Id.radio
+                global.Xamarin.Forms.Platform.Resource.Id.right <- Resource_Id.right
+                global.Xamarin.Forms.Platform.Resource.Id.screen <- Resource_Id.screen
+                global.Xamarin.Forms.Platform.Resource.Id.scroll <- Resource_Id.scroll
+                global.Xamarin.Forms.Platform.Resource.Id.scrollView <- Resource_Id.scrollView
+                global.Xamarin.Forms.Platform.Resource.Id.scrollable <- Resource_Id.scrollable
+                global.Xamarin.Forms.Platform.Resource.Id.search_badge <- Resource_Id.search_badge
+                global.Xamarin.Forms.Platform.Resource.Id.search_bar <- Resource_Id.search_bar
+                global.Xamarin.Forms.Platform.Resource.Id.search_button <- Resource_Id.search_button
+                global.Xamarin.Forms.Platform.Resource.Id.search_close_btn <- Resource_Id.search_close_btn
+                global.Xamarin.Forms.Platform.Resource.Id.search_edit_frame <- Resource_Id.search_edit_frame
+                global.Xamarin.Forms.Platform.Resource.Id.search_go_btn <- Resource_Id.search_go_btn
+                global.Xamarin.Forms.Platform.Resource.Id.search_mag_icon <- Resource_Id.search_mag_icon
+                global.Xamarin.Forms.Platform.Resource.Id.search_plate <- Resource_Id.search_plate
+                global.Xamarin.Forms.Platform.Resource.Id.search_src_text <- Resource_Id.search_src_text
+                global.Xamarin.Forms.Platform.Resource.Id.search_voice_btn <- Resource_Id.search_voice_btn
+                global.Xamarin.Forms.Platform.Resource.Id.select_dialog_listview <- Resource_Id.select_dialog_listview
+                global.Xamarin.Forms.Platform.Resource.Id.shortcut <- Resource_Id.shortcut
+                global.Xamarin.Forms.Platform.Resource.Id.showCustom <- Resource_Id.showCustom
+                global.Xamarin.Forms.Platform.Resource.Id.showHome <- Resource_Id.showHome
+                global.Xamarin.Forms.Platform.Resource.Id.showTitle <- Resource_Id.showTitle
+                global.Xamarin.Forms.Platform.Resource.Id.snackbar_action <- Resource_Id.snackbar_action
+                global.Xamarin.Forms.Platform.Resource.Id.snackbar_text <- Resource_Id.snackbar_text
+                global.Xamarin.Forms.Platform.Resource.Id.split_action_bar <- Resource_Id.split_action_bar
+                global.Xamarin.Forms.Platform.Resource.Id.src_atop <- Resource_Id.src_atop
+                global.Xamarin.Forms.Platform.Resource.Id.src_in <- Resource_Id.src_in
+                global.Xamarin.Forms.Platform.Resource.Id.src_over <- Resource_Id.src_over
+                global.Xamarin.Forms.Platform.Resource.Id.start <- Resource_Id.start
+                global.Xamarin.Forms.Platform.Resource.Id.status_bar_latest_event_content <- Resource_Id.status_bar_latest_event_content
+                global.Xamarin.Forms.Platform.Resource.Id.submit_area <- Resource_Id.submit_area
+                global.Xamarin.Forms.Platform.Resource.Id.tabMode <- Resource_Id.tabMode
+                global.Xamarin.Forms.Platform.Resource.Id.text <- Resource_Id.text
+                global.Xamarin.Forms.Platform.Resource.Id.text2 <- Resource_Id.text2
+                global.Xamarin.Forms.Platform.Resource.Id.textSpacerNoButtons <- Resource_Id.textSpacerNoButtons
+                global.Xamarin.Forms.Platform.Resource.Id.time <- Resource_Id.time
+                global.Xamarin.Forms.Platform.Resource.Id.title <- Resource_Id.title
+                global.Xamarin.Forms.Platform.Resource.Id.title_template <- Resource_Id.title_template
+                global.Xamarin.Forms.Platform.Resource.Id.top <- Resource_Id.top
+                global.Xamarin.Forms.Platform.Resource.Id.topPanel <- Resource_Id.topPanel
+                global.Xamarin.Forms.Platform.Resource.Id.up <- Resource_Id.up
+                global.Xamarin.Forms.Platform.Resource.Id.useLogo <- Resource_Id.useLogo
+                global.Xamarin.Forms.Platform.Resource.Id.view_offset_helper <- Resource_Id.view_offset_helper
+                global.Xamarin.Forms.Platform.Resource.Id.withText <- Resource_Id.withText
+                global.Xamarin.Forms.Platform.Resource.Id.wrap_content <- Resource_Id.wrap_content
+                global.Xamarin.Forms.Platform.Resource.Integer.abc_config_activityDefaultDur <- Resource_Integer.abc_config_activityDefaultDur
+                global.Xamarin.Forms.Platform.Resource.Integer.abc_config_activityShortDur <- Resource_Integer.abc_config_activityShortDur
+                global.Xamarin.Forms.Platform.Resource.Integer.abc_max_action_buttons <- Resource_Integer.abc_max_action_buttons
+                global.Xamarin.Forms.Platform.Resource.Integer.cancel_button_image_alpha <- Resource_Integer.cancel_button_image_alpha
+                global.Xamarin.Forms.Platform.Resource.Integer.design_snackbar_text_max_lines <- Resource_Integer.design_snackbar_text_max_lines
+                global.Xamarin.Forms.Platform.Resource.Integer.status_bar_notification_info_maxnum <- Resource_Integer.status_bar_notification_info_maxnum
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_bar_title_item <- Resource_Layout.abc_action_bar_title_item
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_bar_up_container <- Resource_Layout.abc_action_bar_up_container
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_bar_view_list_nav_layout <- Resource_Layout.abc_action_bar_view_list_nav_layout
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_menu_item_layout <- Resource_Layout.abc_action_menu_item_layout
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_menu_layout <- Resource_Layout.abc_action_menu_layout
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_mode_bar <- Resource_Layout.abc_action_mode_bar
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_action_mode_close_item_material <- Resource_Layout.abc_action_mode_close_item_material
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_activity_chooser_view <- Resource_Layout.abc_activity_chooser_view
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_activity_chooser_view_list_item <- Resource_Layout.abc_activity_chooser_view_list_item
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_alert_dialog_material <- Resource_Layout.abc_alert_dialog_material
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_dialog_title_material <- Resource_Layout.abc_dialog_title_material
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_expanded_menu_layout <- Resource_Layout.abc_expanded_menu_layout
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_list_menu_item_checkbox <- Resource_Layout.abc_list_menu_item_checkbox
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_list_menu_item_icon <- Resource_Layout.abc_list_menu_item_icon
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_list_menu_item_layout <- Resource_Layout.abc_list_menu_item_layout
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_list_menu_item_radio <- Resource_Layout.abc_list_menu_item_radio
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_popup_menu_item_layout <- Resource_Layout.abc_popup_menu_item_layout
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_screen_content_include <- Resource_Layout.abc_screen_content_include
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_screen_simple <- Resource_Layout.abc_screen_simple
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_screen_simple_overlay_action_mode <- Resource_Layout.abc_screen_simple_overlay_action_mode
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_screen_toolbar <- Resource_Layout.abc_screen_toolbar
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_search_dropdown_item_icons_2line <- Resource_Layout.abc_search_dropdown_item_icons_2line
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_search_view <- Resource_Layout.abc_search_view
+                global.Xamarin.Forms.Platform.Resource.Layout.abc_select_dialog_material <- Resource_Layout.abc_select_dialog_material
+                global.Xamarin.Forms.Platform.Resource.Layout.design_layout_snackbar <- Resource_Layout.design_layout_snackbar
+                global.Xamarin.Forms.Platform.Resource.Layout.design_layout_snackbar_include <- Resource_Layout.design_layout_snackbar_include
+                global.Xamarin.Forms.Platform.Resource.Layout.design_layout_tab_icon <- Resource_Layout.design_layout_tab_icon
+                global.Xamarin.Forms.Platform.Resource.Layout.design_layout_tab_text <- Resource_Layout.design_layout_tab_text
+                global.Xamarin.Forms.Platform.Resource.Layout.design_navigation_item <- Resource_Layout.design_navigation_item
+                global.Xamarin.Forms.Platform.Resource.Layout.design_navigation_item_header <- Resource_Layout.design_navigation_item_header
+                global.Xamarin.Forms.Platform.Resource.Layout.design_navigation_item_separator <- Resource_Layout.design_navigation_item_separator
+                global.Xamarin.Forms.Platform.Resource.Layout.design_navigation_item_subheader <- Resource_Layout.design_navigation_item_subheader
+                global.Xamarin.Forms.Platform.Resource.Layout.design_navigation_menu <- Resource_Layout.design_navigation_menu
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_media_action <- Resource_Layout.notification_media_action
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_media_cancel_action <- Resource_Layout.notification_media_cancel_action
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_template_big_media <- Resource_Layout.notification_template_big_media
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_template_big_media_narrow <- Resource_Layout.notification_template_big_media_narrow
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_template_lines <- Resource_Layout.notification_template_lines
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_template_media <- Resource_Layout.notification_template_media
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_template_part_chronometer <- Resource_Layout.notification_template_part_chronometer
+                global.Xamarin.Forms.Platform.Resource.Layout.notification_template_part_time <- Resource_Layout.notification_template_part_time
+                global.Xamarin.Forms.Platform.Resource.Layout.select_dialog_item_material <- Resource_Layout.select_dialog_item_material
+                global.Xamarin.Forms.Platform.Resource.Layout.select_dialog_multichoice_material <- Resource_Layout.select_dialog_multichoice_material
+                global.Xamarin.Forms.Platform.Resource.Layout.select_dialog_singlechoice_material <- Resource_Layout.select_dialog_singlechoice_material
+                global.Xamarin.Forms.Platform.Resource.Layout.support_simple_spinner_dropdown_item <- Resource_Layout.support_simple_spinner_dropdown_item
+                global.Xamarin.Forms.Platform.Resource.String.ApplicationName <- Resource_String.ApplicationName
+                global.Xamarin.Forms.Platform.Resource.String.Hello <- Resource_String.Hello
+                global.Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description <- Resource_String.abc_action_bar_home_description
+                global.Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_description_format <- Resource_String.abc_action_bar_home_description_format
+                global.Xamarin.Forms.Platform.Resource.String.abc_action_bar_home_subtitle_description_format <- Resource_String.abc_action_bar_home_subtitle_description_format
+                global.Xamarin.Forms.Platform.Resource.String.abc_action_bar_up_description <- Resource_String.abc_action_bar_up_description
+                global.Xamarin.Forms.Platform.Resource.String.abc_action_menu_overflow_description <- Resource_String.abc_action_menu_overflow_description
+                global.Xamarin.Forms.Platform.Resource.String.abc_action_mode_done <- Resource_String.abc_action_mode_done
+                global.Xamarin.Forms.Platform.Resource.String.abc_activity_chooser_view_see_all <- Resource_String.abc_activity_chooser_view_see_all
+                global.Xamarin.Forms.Platform.Resource.String.abc_activitychooserview_choose_application <- Resource_String.abc_activitychooserview_choose_application
+                global.Xamarin.Forms.Platform.Resource.String.abc_search_hint <- Resource_String.abc_search_hint
+                global.Xamarin.Forms.Platform.Resource.String.abc_searchview_description_clear <- Resource_String.abc_searchview_description_clear
+                global.Xamarin.Forms.Platform.Resource.String.abc_searchview_description_query <- Resource_String.abc_searchview_description_query
+                global.Xamarin.Forms.Platform.Resource.String.abc_searchview_description_search <- Resource_String.abc_searchview_description_search
+                global.Xamarin.Forms.Platform.Resource.String.abc_searchview_description_submit <- Resource_String.abc_searchview_description_submit
+                global.Xamarin.Forms.Platform.Resource.String.abc_searchview_description_voice <- Resource_String.abc_searchview_description_voice
+                global.Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with <- Resource_String.abc_shareactionprovider_share_with
+                global.Xamarin.Forms.Platform.Resource.String.abc_shareactionprovider_share_with_application <- Resource_String.abc_shareactionprovider_share_with_application
+                global.Xamarin.Forms.Platform.Resource.String.abc_toolbar_collapse_description <- Resource_String.abc_toolbar_collapse_description
+                global.Xamarin.Forms.Platform.Resource.String.appbar_scrolling_view_behavior <- Resource_String.appbar_scrolling_view_behavior
+                global.Xamarin.Forms.Platform.Resource.String.status_bar_notification_info_overflow <- Resource_String.status_bar_notification_info_overflow
+                global.Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat <- Resource.Style.AlertDialog_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.AlertDialog_AppCompat_Light <- Resource.Style.AlertDialog_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_Dialog <- Resource.Style.Animation_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Animation_AppCompat_DropDownUp <- Resource.Style.Animation_AppCompat_DropDownUp
+                global.Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat <- Resource.Style.Base_AlertDialog_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_AlertDialog_AppCompat_Light <- Resource.Style.Base_AlertDialog_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Animation_AppCompat_Dialog <- Resource.Style.Base_Animation_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Animation_AppCompat_DropDownUp <- Resource.Style.Base_Animation_AppCompat_DropDownUp
+                global.Xamarin.Forms.Platform.Resource.Style.Base_DialogWindowTitle_AppCompat <- Resource.Style.Base_DialogWindowTitle_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_DialogWindowTitleBackground_AppCompat <- Resource.Style.Base_DialogWindowTitleBackground_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat <- Resource.Style.Base_TextAppearance_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Body1 <- Resource.Style.Base_TextAppearance_AppCompat_Body1
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Body2 <- Resource.Style.Base_TextAppearance_AppCompat_Body2
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Button <- Resource.Style.Base_TextAppearance_AppCompat_Button
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Caption <- Resource.Style.Base_TextAppearance_AppCompat_Caption
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Display1 <- Resource.Style.Base_TextAppearance_AppCompat_Display1
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Display2 <- Resource.Style.Base_TextAppearance_AppCompat_Display2
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Display3 <- Resource.Style.Base_TextAppearance_AppCompat_Display3
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Display4 <- Resource.Style.Base_TextAppearance_AppCompat_Display4
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Headline <- Resource.Style.Base_TextAppearance_AppCompat_Headline
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Large <- Resource.Style.Base_TextAppearance_AppCompat_Large
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large <- Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small <- Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Medium <- Resource.Style.Base_TextAppearance_AppCompat_Medium
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Menu <- Resource.Style.Base_TextAppearance_AppCompat_Menu
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_SearchResult <- Resource.Style.Base_TextAppearance_AppCompat_SearchResult
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle <- Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title <- Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Small <- Resource.Style.Base_TextAppearance_AppCompat_Small
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Subhead <- Resource.Style.Base_TextAppearance_AppCompat_Subhead
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Title <- Resource.Style.Base_TextAppearance_AppCompat_Title
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title <- Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button <- Resource.Style.Base_TextAppearance_AppCompat_Widget_Button
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse <- Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem <- Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large <- Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small <- Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch <- Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem <- Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item <- Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle <- Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title <- Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat <- Resource.Style.Base_Theme_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_CompactMenu <- Resource.Style.Base_Theme_AppCompat_CompactMenu
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Dialog <- Resource.Style.Base_Theme_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Dialog_Alert <- Resource.Style.Base_Theme_AppCompat_Dialog_Alert
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize <- Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth <- Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge <- Resource.Style.Base_Theme_AppCompat_DialogWhenLarge
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light <- Resource.Style.Base_Theme_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar <- Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog <- Resource.Style.Base_Theme_AppCompat_Light_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert <- Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize <- Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth <- Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge <- Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge
+                global.Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat <- Resource.Style.Base_ThemeOverlay_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar <- Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_Dark <- Resource.Style.Base_ThemeOverlay_AppCompat_Dark
+                global.Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar <- Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_ThemeOverlay_AppCompat_Light <- Resource.Style.Base_ThemeOverlay_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V11_Theme_AppCompat_Dialog <- Resource.Style.Base_V11_Theme_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog <- Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView <- Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V12_Widget_AppCompat_EditText <- Resource.Style.Base_V12_Widget_AppCompat_EditText
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat <- Resource.Style.Base_V21_Theme_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Dialog <- Resource.Style.Base_V21_Theme_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light <- Resource.Style.Base_V21_Theme_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog <- Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat <- Resource.Style.Base_V22_Theme_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V22_Theme_AppCompat_Light <- Resource.Style.Base_V22_Theme_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V23_Theme_AppCompat <- Resource.Style.Base_V23_Theme_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V23_Theme_AppCompat_Light <- Resource.Style.Base_V23_Theme_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V7_Theme_AppCompat <- Resource.Style.Base_V7_Theme_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V7_Theme_AppCompat_Dialog <- Resource.Style.Base_V7_Theme_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V7_Theme_AppCompat_Light <- Resource.Style.Base_V7_Theme_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog <- Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView <- Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_V7_Widget_AppCompat_EditText <- Resource.Style.Base_V7_Widget_AppCompat_EditText
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionBar <- Resource.Style.Base_Widget_AppCompat_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid <- Resource.Style.Base_Widget_AppCompat_ActionBar_Solid
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar <- Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText <- Resource.Style.Base_Widget_AppCompat_ActionBar_TabText
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView <- Resource.Style.Base_Widget_AppCompat_ActionBar_TabView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionButton <- Resource.Style.Base_Widget_AppCompat_ActionButton
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode <- Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow <- Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActionMode <- Resource.Style.Base_Widget_AppCompat_ActionMode
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ActivityChooserView <- Resource.Style.Base_Widget_AppCompat_ActivityChooserView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView <- Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Button <- Resource.Style.Base_Widget_AppCompat_Button
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Button_Borderless <- Resource.Style.Base_Widget_AppCompat_Button_Borderless
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored <- Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog <- Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Button_Colored <- Resource.Style.Base_Widget_AppCompat_Button_Colored
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Button_Small <- Resource.Style.Base_Widget_AppCompat_Button_Small
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ButtonBar <- Resource.Style.Base_Widget_AppCompat_ButtonBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog <- Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox <- Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton <- Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch <- Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle <- Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common <- Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner <- Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_EditText <- Resource.Style.Base_Widget_AppCompat_EditText
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_ActionBar <- Resource.Style.Base_Widget_AppCompat_Light_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid <- Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar <- Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText <- Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse <- Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView <- Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu <- Resource.Style.Base_Widget_AppCompat_Light_PopupMenu
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow <- Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ListPopupWindow <- Resource.Style.Base_Widget_AppCompat_ListPopupWindow
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ListView <- Resource.Style.Base_Widget_AppCompat_ListView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ListView_DropDown <- Resource.Style.Base_Widget_AppCompat_ListView_DropDown
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ListView_Menu <- Resource.Style.Base_Widget_AppCompat_ListView_Menu
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_PopupMenu <- Resource.Style.Base_Widget_AppCompat_PopupMenu
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow <- Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_PopupWindow <- Resource.Style.Base_Widget_AppCompat_PopupWindow
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ProgressBar <- Resource.Style.Base_Widget_AppCompat_ProgressBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal <- Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_RatingBar <- Resource.Style.Base_Widget_AppCompat_RatingBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_SearchView <- Resource.Style.Base_Widget_AppCompat_SearchView
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar <- Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Spinner <- Resource.Style.Base_Widget_AppCompat_Spinner
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined <- Resource.Style.Base_Widget_AppCompat_Spinner_Underlined
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem <- Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar <- Resource.Style.Base_Widget_AppCompat_Toolbar
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation <- Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation
+                global.Xamarin.Forms.Platform.Resource.Style.Base_Widget_Design_TabLayout <- Resource.Style.Base_Widget_Design_TabLayout
+                global.Xamarin.Forms.Platform.Resource.Style.CardView <- Resource.Style.CardView
+                global.Xamarin.Forms.Platform.Resource.Style.CardView_Dark <- Resource.Style.CardView_Dark
+                global.Xamarin.Forms.Platform.Resource.Style.CardView_Light <- Resource.Style.CardView_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat <- Resource.Style.Platform_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_AppCompat_Light <- Resource.Style.Platform_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_ThemeOverlay_AppCompat <- Resource.Style.Platform_ThemeOverlay_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark <- Resource.Style.Platform_ThemeOverlay_AppCompat_Dark
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_ThemeOverlay_AppCompat_Light <- Resource.Style.Platform_ThemeOverlay_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_V11_AppCompat <- Resource.Style.Platform_V11_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_V11_AppCompat_Light <- Resource.Style.Platform_V11_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_V14_AppCompat <- Resource.Style.Platform_V14_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_V14_AppCompat_Light <- Resource.Style.Platform_V14_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Platform_Widget_AppCompat_Spinner <- Resource.Style.Platform_Widget_AppCompat_Spinner
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat <- Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem <- Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow <- Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon <- Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem <- Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup <- Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text <- Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown <- Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 <- Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 <- Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query <- Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text <- Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text
+                global.Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon <- Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat <- Resource.Style.TextAppearance_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 <- Resource.Style.TextAppearance_AppCompat_Body1
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 <- Resource.Style.TextAppearance_AppCompat_Body2
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Button <- Resource.Style.TextAppearance_AppCompat_Button
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Caption <- Resource.Style.TextAppearance_AppCompat_Caption
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Display1 <- Resource.Style.TextAppearance_AppCompat_Display1
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Display2 <- Resource.Style.TextAppearance_AppCompat_Display2
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Display3 <- Resource.Style.TextAppearance_AppCompat_Display3
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Display4 <- Resource.Style.TextAppearance_AppCompat_Display4
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Headline <- Resource.Style.TextAppearance_AppCompat_Headline
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Inverse <- Resource.Style.TextAppearance_AppCompat_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Large <- Resource.Style.TextAppearance_AppCompat_Large
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Large_Inverse <- Resource.Style.TextAppearance_AppCompat_Large_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle <- Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title <- Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large <- Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small <- Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Medium <- Resource.Style.TextAppearance_AppCompat_Medium
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Medium_Inverse <- Resource.Style.TextAppearance_AppCompat_Medium_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Menu <- Resource.Style.TextAppearance_AppCompat_Menu
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle <- Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_SearchResult_Title <- Resource.Style.TextAppearance_AppCompat_SearchResult_Title
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Small <- Resource.Style.TextAppearance_AppCompat_Small
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Small_Inverse <- Resource.Style.TextAppearance_AppCompat_Small_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Subhead <- Resource.Style.TextAppearance_AppCompat_Subhead
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse <- Resource.Style.TextAppearance_AppCompat_Subhead_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Title <- Resource.Style.TextAppearance_AppCompat_Title
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Title_Inverse <- Resource.Style.TextAppearance_AppCompat_Title_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu <- Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle <- Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse <- Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title <- Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse <- Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle <- Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse <- Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title <- Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse <- Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_Button <- Resource.Style.TextAppearance_AppCompat_Widget_Button
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse <- Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem <- Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large <- Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small <- Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_Switch <- Resource.Style.TextAppearance_AppCompat_Widget_Switch
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem <- Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded <- Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Error <- Resource.Style.TextAppearance_Design_Error
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Hint <- Resource.Style.TextAppearance_Design_Hint
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Snackbar_Message <- Resource.Style.TextAppearance_Design_Snackbar_Message
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Design_Tab <- Resource.Style.TextAppearance_Design_Tab
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_StatusBar_EventContent <- Resource.Style.TextAppearance_StatusBar_EventContent
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_StatusBar_EventContent_Info <- Resource.Style.TextAppearance_StatusBar_EventContent_Info
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 <- Resource.Style.TextAppearance_StatusBar_EventContent_Line2
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_StatusBar_EventContent_Time <- Resource.Style.TextAppearance_StatusBar_EventContent_Time
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_StatusBar_EventContent_Title <- Resource.Style.TextAppearance_StatusBar_EventContent_Title
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item <- Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle <- Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle
+                global.Xamarin.Forms.Platform.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title <- Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat <- Resource.Style.Theme_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_CompactMenu <- Resource.Style.Theme_AppCompat_CompactMenu
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog <- Resource.Style.Theme_AppCompat_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog_Alert <- Resource.Style.Theme_AppCompat_Dialog_Alert
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Dialog_MinWidth <- Resource.Style.Theme_AppCompat_Dialog_MinWidth
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_DialogWhenLarge <- Resource.Style.Theme_AppCompat_DialogWhenLarge
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light <- Resource.Style.Theme_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_DarkActionBar <- Resource.Style.Theme_AppCompat_Light_DarkActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_Dialog <- Resource.Style.Theme_AppCompat_Light_Dialog
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_Dialog_Alert <- Resource.Style.Theme_AppCompat_Light_Dialog_Alert
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth <- Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge <- Resource.Style.Theme_AppCompat_Light_DialogWhenLarge
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_Light_NoActionBar <- Resource.Style.Theme_AppCompat_Light_NoActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Theme_AppCompat_NoActionBar <- Resource.Style.Theme_AppCompat_NoActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat <- Resource.Style.ThemeOverlay_AppCompat
+                global.Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_ActionBar <- Resource.Style.ThemeOverlay_AppCompat_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark <- Resource.Style.ThemeOverlay_AppCompat_Dark
+                global.Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar <- Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.ThemeOverlay_AppCompat_Light <- Resource.Style.ThemeOverlay_AppCompat_Light
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar <- Resource.Style.Widget_AppCompat_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar_Solid <- Resource.Style.Widget_AppCompat_ActionBar_Solid
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar_TabBar <- Resource.Style.Widget_AppCompat_ActionBar_TabBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar_TabText <- Resource.Style.Widget_AppCompat_ActionBar_TabText
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionBar_TabView <- Resource.Style.Widget_AppCompat_ActionBar_TabView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionButton <- Resource.Style.Widget_AppCompat_ActionButton
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionButton_CloseMode <- Resource.Style.Widget_AppCompat_ActionButton_CloseMode
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionButton_Overflow <- Resource.Style.Widget_AppCompat_ActionButton_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActionMode <- Resource.Style.Widget_AppCompat_ActionMode
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ActivityChooserView <- Resource.Style.Widget_AppCompat_ActivityChooserView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_AutoCompleteTextView <- Resource.Style.Widget_AppCompat_AutoCompleteTextView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Button <- Resource.Style.Widget_AppCompat_Button
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Button_Borderless <- Resource.Style.Widget_AppCompat_Button_Borderless
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Button_Borderless_Colored <- Resource.Style.Widget_AppCompat_Button_Borderless_Colored
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog <- Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Button_Colored <- Resource.Style.Widget_AppCompat_Button_Colored
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Button_Small <- Resource.Style.Widget_AppCompat_Button_Small
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ButtonBar <- Resource.Style.Widget_AppCompat_ButtonBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog <- Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox <- Resource.Style.Widget_AppCompat_CompoundButton_CheckBox
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton <- Resource.Style.Widget_AppCompat_CompoundButton_RadioButton
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_CompoundButton_Switch <- Resource.Style.Widget_AppCompat_CompoundButton_Switch
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_DrawerArrowToggle <- Resource.Style.Widget_AppCompat_DrawerArrowToggle
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_DropDownItem_Spinner <- Resource.Style.Widget_AppCompat_DropDownItem_Spinner
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_EditText <- Resource.Style.Widget_AppCompat_EditText
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar <- Resource.Style.Widget_AppCompat_Light_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid <- Resource.Style.Widget_AppCompat_Light_ActionBar_Solid
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse <- Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar <- Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse <- Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText <- Resource.Style.Widget_AppCompat_Light_ActionBar_TabText
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse <- Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView <- Resource.Style.Widget_AppCompat_Light_ActionBar_TabView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse <- Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionButton <- Resource.Style.Widget_AppCompat_Light_ActionButton
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode <- Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow <- Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse <- Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ActivityChooserView <- Resource.Style.Widget_AppCompat_Light_ActivityChooserView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView <- Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner <- Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ListPopupWindow <- Resource.Style.Widget_AppCompat_Light_ListPopupWindow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_ListView_DropDown <- Resource.Style.Widget_AppCompat_Light_ListView_DropDown
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_PopupMenu <- Resource.Style.Widget_AppCompat_Light_PopupMenu
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow <- Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_SearchView <- Resource.Style.Widget_AppCompat_Light_SearchView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar <- Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ListPopupWindow <- Resource.Style.Widget_AppCompat_ListPopupWindow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ListView <- Resource.Style.Widget_AppCompat_ListView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ListView_DropDown <- Resource.Style.Widget_AppCompat_ListView_DropDown
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ListView_Menu <- Resource.Style.Widget_AppCompat_ListView_Menu
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_PopupMenu <- Resource.Style.Widget_AppCompat_PopupMenu
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_PopupMenu_Overflow <- Resource.Style.Widget_AppCompat_PopupMenu_Overflow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_PopupWindow <- Resource.Style.Widget_AppCompat_PopupWindow
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ProgressBar <- Resource.Style.Widget_AppCompat_ProgressBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal <- Resource.Style.Widget_AppCompat_ProgressBar_Horizontal
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_RatingBar <- Resource.Style.Widget_AppCompat_RatingBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_SearchView <- Resource.Style.Widget_AppCompat_SearchView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_SearchView_ActionBar <- Resource.Style.Widget_AppCompat_SearchView_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner <- Resource.Style.Widget_AppCompat_Spinner
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_DropDown <- Resource.Style.Widget_AppCompat_Spinner_DropDown
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar <- Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Spinner_Underlined <- Resource.Style.Widget_AppCompat_Spinner_Underlined
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_TextView_SpinnerItem <- Resource.Style.Widget_AppCompat_TextView_SpinnerItem
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar <- Resource.Style.Widget_AppCompat_Toolbar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation <- Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_AppBarLayout <- Resource.Style.Widget_Design_AppBarLayout
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_CollapsingToolbar <- Resource.Style.Widget_Design_CollapsingToolbar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_CoordinatorLayout <- Resource.Style.Widget_Design_CoordinatorLayout
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_FloatingActionButton <- Resource.Style.Widget_Design_FloatingActionButton
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_NavigationView <- Resource.Style.Widget_Design_NavigationView
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_ScrimInsetsFrameLayout <- Resource.Style.Widget_Design_ScrimInsetsFrameLayout
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_Snackbar <- Resource.Style.Widget_Design_Snackbar
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_TabLayout <- Resource.Style.Widget_Design_TabLayout
+                global.Xamarin.Forms.Platform.Resource.Style.Widget_Design_TextInputLayout <- Resource.Style.Widget_Design_TextInputLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar <- Resource_Styleable.ActionBar
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_background <- Resource_Styleable.ActionBar_background
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_backgroundSplit <- Resource_Styleable.ActionBar_backgroundSplit
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_backgroundStacked <- Resource_Styleable.ActionBar_backgroundStacked
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_contentInsetEnd <- Resource_Styleable.ActionBar_contentInsetEnd
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_contentInsetLeft <- Resource_Styleable.ActionBar_contentInsetLeft
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_contentInsetRight <- Resource_Styleable.ActionBar_contentInsetRight
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_contentInsetStart <- Resource_Styleable.ActionBar_contentInsetStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_customNavigationLayout <- Resource_Styleable.ActionBar_customNavigationLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_displayOptions <- Resource_Styleable.ActionBar_displayOptions
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_divider <- Resource_Styleable.ActionBar_divider
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_elevation <- Resource_Styleable.ActionBar_elevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_height <- Resource_Styleable.ActionBar_height
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_hideOnContentScroll <- Resource_Styleable.ActionBar_hideOnContentScroll
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_homeAsUpIndicator <- Resource_Styleable.ActionBar_homeAsUpIndicator
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_homeLayout <- Resource_Styleable.ActionBar_homeLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_icon <- Resource_Styleable.ActionBar_icon
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_indeterminateProgressStyle <- Resource_Styleable.ActionBar_indeterminateProgressStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_itemPadding <- Resource_Styleable.ActionBar_itemPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_logo <- Resource_Styleable.ActionBar_logo
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_navigationMode <- Resource_Styleable.ActionBar_navigationMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_popupTheme <- Resource_Styleable.ActionBar_popupTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_progressBarPadding <- Resource_Styleable.ActionBar_progressBarPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_progressBarStyle <- Resource_Styleable.ActionBar_progressBarStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_subtitle <- Resource_Styleable.ActionBar_subtitle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_subtitleTextStyle <- Resource_Styleable.ActionBar_subtitleTextStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_title <- Resource_Styleable.ActionBar_title
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBar_titleTextStyle <- Resource_Styleable.ActionBar_titleTextStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout <- Resource_Styleable.ActionBarLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionBarLayout_android_layout_gravity <- Resource_Styleable.ActionBarLayout_android_layout_gravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMenuItemView <- Resource_Styleable.ActionMenuItemView
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMenuItemView_android_minWidth <- Resource_Styleable.ActionMenuItemView_android_minWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMenuView <- Resource_Styleable.ActionMenuView
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode <- Resource_Styleable.ActionMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode_background <- Resource_Styleable.ActionMode_background
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode_backgroundSplit <- Resource_Styleable.ActionMode_backgroundSplit
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode_closeItemLayout <- Resource_Styleable.ActionMode_closeItemLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode_height <- Resource_Styleable.ActionMode_height
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode_subtitleTextStyle <- Resource_Styleable.ActionMode_subtitleTextStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActionMode_titleTextStyle <- Resource_Styleable.ActionMode_titleTextStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActivityChooserView <- Resource_Styleable.ActivityChooserView
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable <- Resource_Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.ActivityChooserView_initialActivityCount <- Resource_Styleable.ActivityChooserView_initialActivityCount
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog <- Resource_Styleable.AlertDialog
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_android_layout <- Resource_Styleable.AlertDialog_android_layout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_buttonPanelSideLayout <- Resource_Styleable.AlertDialog_buttonPanelSideLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_listItemLayout <- Resource_Styleable.AlertDialog_listItemLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_listLayout <- Resource_Styleable.AlertDialog_listLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_multiChoiceItemLayout <- Resource_Styleable.AlertDialog_multiChoiceItemLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AlertDialog_singleChoiceItemLayout <- Resource_Styleable.AlertDialog_singleChoiceItemLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout <- Resource_Styleable.AppBarLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_android_background <- Resource_Styleable.AppBarLayout_android_background
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_elevation <- Resource_Styleable.AppBarLayout_elevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_expanded <- Resource_Styleable.AppBarLayout_expanded
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_LayoutParams <- Resource_Styleable.AppBarLayout_LayoutParams
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags <- Resource_Styleable.AppBarLayout_LayoutParams_layout_scrollFlags
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator <- Resource_Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView <- Resource_Styleable.AppCompatTextView
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_android_textAppearance <- Resource_Styleable.AppCompatTextView_android_textAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.AppCompatTextView_textAllCaps <- Resource_Styleable.AppCompatTextView_textAllCaps
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView <- Resource_Styleable.CardView
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_cardBackgroundColor <- Resource_Styleable.CardView_cardBackgroundColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_cardCornerRadius <- Resource_Styleable.CardView_cardCornerRadius
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_cardElevation <- Resource_Styleable.CardView_cardElevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_cardMaxElevation <- Resource_Styleable.CardView_cardMaxElevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_cardPreventCornerOverlap <- Resource_Styleable.CardView_cardPreventCornerOverlap
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_cardUseCompatPadding <- Resource_Styleable.CardView_cardUseCompatPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_contentPadding <- Resource_Styleable.CardView_contentPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_contentPaddingBottom <- Resource_Styleable.CardView_contentPaddingBottom
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_contentPaddingLeft <- Resource_Styleable.CardView_contentPaddingLeft
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_contentPaddingRight <- Resource_Styleable.CardView_contentPaddingRight
+                global.Xamarin.Forms.Platform.Resource.Styleable.CardView_contentPaddingTop <- Resource_Styleable.CardView_contentPaddingTop
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingAppBarLayout_LayoutParams <- Resource_Styleable.CollapsingAppBarLayout_LayoutParams
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode <- Resource_Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier <- Resource_Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout <- Resource_Styleable.CollapsingToolbarLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity <- Resource_Styleable.CollapsingToolbarLayout_collapsedTitleGravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance <- Resource_Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_contentScrim <- Resource_Styleable.CollapsingToolbarLayout_contentScrim
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleGravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleMargin
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleMarginStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleMarginTop
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance <- Resource_Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim <- Resource_Styleable.CollapsingToolbarLayout_statusBarScrim
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_title <- Resource_Styleable.CollapsingToolbarLayout_title
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_titleEnabled <- Resource_Styleable.CollapsingToolbarLayout_titleEnabled
+                global.Xamarin.Forms.Platform.Resource.Styleable.CollapsingToolbarLayout_toolbarId <- Resource_Styleable.CollapsingToolbarLayout_toolbarId
+                global.Xamarin.Forms.Platform.Resource.Styleable.CompoundButton <- Resource_Styleable.CompoundButton
+                global.Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_android_button <- Resource_Styleable.CompoundButton_android_button
+                global.Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTint <- Resource_Styleable.CompoundButton_buttonTint
+                global.Xamarin.Forms.Platform.Resource.Styleable.CompoundButton_buttonTintMode <- Resource_Styleable.CompoundButton_buttonTintMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout <- Resource_Styleable.CoordinatorLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_keylines <- Resource_Styleable.CoordinatorLayout_keylines
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_statusBarBackground <- Resource_Styleable.CoordinatorLayout_statusBarBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_LayoutParams <- Resource_Styleable.CoordinatorLayout_LayoutParams
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity <- Resource_Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor <- Resource_Styleable.CoordinatorLayout_LayoutParams_layout_anchor
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity <- Resource_Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior <- Resource_Styleable.CoordinatorLayout_LayoutParams_layout_behavior
+                global.Xamarin.Forms.Platform.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline <- Resource_Styleable.CoordinatorLayout_LayoutParams_layout_keyline
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle <- Resource_Styleable.DrawerArrowToggle
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_arrowHeadLength <- Resource_Styleable.DrawerArrowToggle_arrowHeadLength
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_arrowShaftLength <- Resource_Styleable.DrawerArrowToggle_arrowShaftLength
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_barLength <- Resource_Styleable.DrawerArrowToggle_barLength
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_color <- Resource_Styleable.DrawerArrowToggle_color
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_drawableSize <- Resource_Styleable.DrawerArrowToggle_drawableSize
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_gapBetweenBars <- Resource_Styleable.DrawerArrowToggle_gapBetweenBars
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_spinBars <- Resource_Styleable.DrawerArrowToggle_spinBars
+                global.Xamarin.Forms.Platform.Resource.Styleable.DrawerArrowToggle_thickness <- Resource_Styleable.DrawerArrowToggle_thickness
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton <- Resource_Styleable.FloatingActionButton
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_android_background <- Resource_Styleable.FloatingActionButton_android_background
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTint <- Resource_Styleable.FloatingActionButton_backgroundTint
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_backgroundTintMode <- Resource_Styleable.FloatingActionButton_backgroundTintMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_borderWidth <- Resource_Styleable.FloatingActionButton_borderWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_elevation <- Resource_Styleable.FloatingActionButton_elevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_fabSize <- Resource_Styleable.FloatingActionButton_fabSize
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_pressedTranslationZ <- Resource_Styleable.FloatingActionButton_pressedTranslationZ
+                global.Xamarin.Forms.Platform.Resource.Styleable.FloatingActionButton_rippleColor <- Resource_Styleable.FloatingActionButton_rippleColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat <- Resource_Styleable.LinearLayoutCompat
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAligned <- Resource_Styleable.LinearLayoutCompat_android_baselineAligned
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex <- Resource_Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_gravity <- Resource_Styleable.LinearLayoutCompat_android_gravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_orientation <- Resource_Styleable.LinearLayoutCompat_android_orientation
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_android_weightSum <- Resource_Styleable.LinearLayoutCompat_android_weightSum
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_divider <- Resource_Styleable.LinearLayoutCompat_divider
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_dividerPadding <- Resource_Styleable.LinearLayoutCompat_dividerPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild <- Resource_Styleable.LinearLayoutCompat_measureWithLargestChild
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_showDividers <- Resource_Styleable.LinearLayoutCompat_showDividers
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_Layout <- Resource_Styleable.LinearLayoutCompat_Layout
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity <- Resource_Styleable.LinearLayoutCompat_Layout_android_layout_gravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height <- Resource_Styleable.LinearLayoutCompat_Layout_android_layout_height
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight <- Resource_Styleable.LinearLayoutCompat_Layout_android_layout_weight
+                global.Xamarin.Forms.Platform.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width <- Resource_Styleable.LinearLayoutCompat_Layout_android_layout_width
+                global.Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow <- Resource_Styleable.ListPopupWindow
+                global.Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset <- Resource_Styleable.ListPopupWindow_android_dropDownHorizontalOffset
+                global.Xamarin.Forms.Platform.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset <- Resource_Styleable.ListPopupWindow_android_dropDownVerticalOffset
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup <- Resource_Styleable.MenuGroup
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_checkableBehavior <- Resource_Styleable.MenuGroup_android_checkableBehavior
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_enabled <- Resource_Styleable.MenuGroup_android_enabled
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_id <- Resource_Styleable.MenuGroup_android_id
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_menuCategory <- Resource_Styleable.MenuGroup_android_menuCategory
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_orderInCategory <- Resource_Styleable.MenuGroup_android_orderInCategory
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuGroup_android_visible <- Resource_Styleable.MenuGroup_android_visible
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem <- Resource_Styleable.MenuItem
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_actionLayout <- Resource_Styleable.MenuItem_actionLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_actionProviderClass <- Resource_Styleable.MenuItem_actionProviderClass
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_actionViewClass <- Resource_Styleable.MenuItem_actionViewClass
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_alphabeticShortcut <- Resource_Styleable.MenuItem_android_alphabeticShortcut
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_checkable <- Resource_Styleable.MenuItem_android_checkable
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_checked <- Resource_Styleable.MenuItem_android_checked
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_enabled <- Resource_Styleable.MenuItem_android_enabled
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_icon <- Resource_Styleable.MenuItem_android_icon
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_id <- Resource_Styleable.MenuItem_android_id
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_menuCategory <- Resource_Styleable.MenuItem_android_menuCategory
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_numericShortcut <- Resource_Styleable.MenuItem_android_numericShortcut
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_onClick <- Resource_Styleable.MenuItem_android_onClick
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_orderInCategory <- Resource_Styleable.MenuItem_android_orderInCategory
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_title <- Resource_Styleable.MenuItem_android_title
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_titleCondensed <- Resource_Styleable.MenuItem_android_titleCondensed
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_android_visible <- Resource_Styleable.MenuItem_android_visible
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuItem_showAsAction <- Resource_Styleable.MenuItem_showAsAction
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView <- Resource_Styleable.MenuView
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_headerBackground <- Resource_Styleable.MenuView_android_headerBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_horizontalDivider <- Resource_Styleable.MenuView_android_horizontalDivider
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_itemBackground <- Resource_Styleable.MenuView_android_itemBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_itemIconDisabledAlpha <- Resource_Styleable.MenuView_android_itemIconDisabledAlpha
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_itemTextAppearance <- Resource_Styleable.MenuView_android_itemTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_verticalDivider <- Resource_Styleable.MenuView_android_verticalDivider
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_android_windowAnimationStyle <- Resource_Styleable.MenuView_android_windowAnimationStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.MenuView_preserveIconSpacing <- Resource_Styleable.MenuView_preserveIconSpacing
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView <- Resource_Styleable.NavigationView
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_android_background <- Resource_Styleable.NavigationView_android_background
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_android_fitsSystemWindows <- Resource_Styleable.NavigationView_android_fitsSystemWindows
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_android_maxWidth <- Resource_Styleable.NavigationView_android_maxWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_elevation <- Resource_Styleable.NavigationView_elevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_headerLayout <- Resource_Styleable.NavigationView_headerLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemBackground <- Resource_Styleable.NavigationView_itemBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemIconTint <- Resource_Styleable.NavigationView_itemIconTint
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextAppearance <- Resource_Styleable.NavigationView_itemTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_itemTextColor <- Resource_Styleable.NavigationView_itemTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.NavigationView_menu <- Resource_Styleable.NavigationView_menu
+                global.Xamarin.Forms.Platform.Resource.Styleable.PopupWindow <- Resource_Styleable.PopupWindow
+                global.Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_android_popupBackground <- Resource_Styleable.PopupWindow_android_popupBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.PopupWindow_overlapAnchor <- Resource_Styleable.PopupWindow_overlapAnchor
+                global.Xamarin.Forms.Platform.Resource.Styleable.PopupWindowBackgroundState <- Resource_Styleable.PopupWindowBackgroundState
+                global.Xamarin.Forms.Platform.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor <- Resource_Styleable.PopupWindowBackgroundState_state_above_anchor
+                global.Xamarin.Forms.Platform.Resource.Styleable.ScrimInsetsFrameLayout <- Resource_Styleable.ScrimInsetsFrameLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground <- Resource_Styleable.ScrimInsetsFrameLayout_insetForeground
+                global.Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Params <- Resource_Styleable.ScrollingViewBehavior_Params
+                global.Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop <- Resource_Styleable.ScrollingViewBehavior_Params_behavior_overlapTop
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView <- Resource_Styleable.SearchView
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_focusable <- Resource_Styleable.SearchView_android_focusable
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_imeOptions <- Resource_Styleable.SearchView_android_imeOptions
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_inputType <- Resource_Styleable.SearchView_android_inputType
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_maxWidth <- Resource_Styleable.SearchView_android_maxWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_closeIcon <- Resource_Styleable.SearchView_closeIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_commitIcon <- Resource_Styleable.SearchView_commitIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_defaultQueryHint <- Resource_Styleable.SearchView_defaultQueryHint
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_goIcon <- Resource_Styleable.SearchView_goIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_iconifiedByDefault <- Resource_Styleable.SearchView_iconifiedByDefault
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_layout <- Resource_Styleable.SearchView_layout
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_queryBackground <- Resource_Styleable.SearchView_queryBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_queryHint <- Resource_Styleable.SearchView_queryHint
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_searchHintIcon <- Resource_Styleable.SearchView_searchHintIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_searchIcon <- Resource_Styleable.SearchView_searchIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_submitBackground <- Resource_Styleable.SearchView_submitBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_suggestionRowLayout <- Resource_Styleable.SearchView_suggestionRowLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.SearchView_voiceIcon <- Resource_Styleable.SearchView_voiceIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout <- Resource_Styleable.SnackbarLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_android_maxWidth <- Resource_Styleable.SnackbarLayout_android_maxWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_elevation <- Resource_Styleable.SnackbarLayout_elevation
+                global.Xamarin.Forms.Platform.Resource.Styleable.SnackbarLayout_maxActionInlineWidth <- Resource_Styleable.SnackbarLayout_maxActionInlineWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.Spinner <- Resource_Styleable.Spinner
+                global.Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_dropDownWidth <- Resource_Styleable.Spinner_android_dropDownWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_popupBackground <- Resource_Styleable.Spinner_android_popupBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Spinner_android_prompt <- Resource_Styleable.Spinner_android_prompt
+                global.Xamarin.Forms.Platform.Resource.Styleable.Spinner_popupTheme <- Resource_Styleable.Spinner_popupTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat <- Resource_Styleable.SwitchCompat
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_textOff <- Resource_Styleable.SwitchCompat_android_textOff
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_textOn <- Resource_Styleable.SwitchCompat_android_textOn
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_android_thumb <- Resource_Styleable.SwitchCompat_android_thumb
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_showText <- Resource_Styleable.SwitchCompat_showText
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_splitTrack <- Resource_Styleable.SwitchCompat_splitTrack
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_switchMinWidth <- Resource_Styleable.SwitchCompat_switchMinWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_switchPadding <- Resource_Styleable.SwitchCompat_switchPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_switchTextAppearance <- Resource_Styleable.SwitchCompat_switchTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_thumbTextPadding <- Resource_Styleable.SwitchCompat_thumbTextPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.SwitchCompat_track <- Resource_Styleable.SwitchCompat_track
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout <- Resource_Styleable.TabLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabBackground <- Resource_Styleable.TabLayout_tabBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabContentStart <- Resource_Styleable.TabLayout_tabContentStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabGravity <- Resource_Styleable.TabLayout_tabGravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabIndicatorColor <- Resource_Styleable.TabLayout_tabIndicatorColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabIndicatorHeight <- Resource_Styleable.TabLayout_tabIndicatorHeight
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabMaxWidth <- Resource_Styleable.TabLayout_tabMaxWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabMinWidth <- Resource_Styleable.TabLayout_tabMinWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabMode <- Resource_Styleable.TabLayout_tabMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabPadding <- Resource_Styleable.TabLayout_tabPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabPaddingBottom <- Resource_Styleable.TabLayout_tabPaddingBottom
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabPaddingEnd <- Resource_Styleable.TabLayout_tabPaddingEnd
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabPaddingStart <- Resource_Styleable.TabLayout_tabPaddingStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabPaddingTop <- Resource_Styleable.TabLayout_tabPaddingTop
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabSelectedTextColor <- Resource_Styleable.TabLayout_tabSelectedTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabTextAppearance <- Resource_Styleable.TabLayout_tabTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.TabLayout_tabTextColor <- Resource_Styleable.TabLayout_tabTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextAppearance <- Resource_Styleable.TextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textColor <- Resource_Styleable.TextAppearance_android_textColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textSize <- Resource_Styleable.TextAppearance_android_textSize
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_textStyle <- Resource_Styleable.TextAppearance_android_textStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_android_typeface <- Resource_Styleable.TextAppearance_android_typeface
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextAppearance_textAllCaps <- Resource_Styleable.TextAppearance_textAllCaps
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout <- Resource_Styleable.TextInputLayout
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_hint <- Resource_Styleable.TextInputLayout_android_hint
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_android_textColorHint <- Resource_Styleable.TextInputLayout_android_textColorHint
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorEnabled <- Resource_Styleable.TextInputLayout_errorEnabled
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_errorTextAppearance <- Resource_Styleable.TextInputLayout_errorTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintAnimationEnabled <- Resource_Styleable.TextInputLayout_hintAnimationEnabled
+                global.Xamarin.Forms.Platform.Resource.Styleable.TextInputLayout_hintTextAppearance <- Resource_Styleable.TextInputLayout_hintTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme <- Resource_Styleable.Theme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarDivider <- Resource_Styleable.Theme_actionBarDivider
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarItemBackground <- Resource_Styleable.Theme_actionBarItemBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarPopupTheme <- Resource_Styleable.Theme_actionBarPopupTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarSize <- Resource_Styleable.Theme_actionBarSize
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarSplitStyle <- Resource_Styleable.Theme_actionBarSplitStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarStyle <- Resource_Styleable.Theme_actionBarStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarTabBarStyle <- Resource_Styleable.Theme_actionBarTabBarStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarTabStyle <- Resource_Styleable.Theme_actionBarTabStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarTabTextStyle <- Resource_Styleable.Theme_actionBarTabTextStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarTheme <- Resource_Styleable.Theme_actionBarTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionBarWidgetTheme <- Resource_Styleable.Theme_actionBarWidgetTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionButtonStyle <- Resource_Styleable.Theme_actionButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionDropDownStyle <- Resource_Styleable.Theme_actionDropDownStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionMenuTextAppearance <- Resource_Styleable.Theme_actionMenuTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionMenuTextColor <- Resource_Styleable.Theme_actionMenuTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeBackground <- Resource_Styleable.Theme_actionModeBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeCloseButtonStyle <- Resource_Styleable.Theme_actionModeCloseButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeCloseDrawable <- Resource_Styleable.Theme_actionModeCloseDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeCopyDrawable <- Resource_Styleable.Theme_actionModeCopyDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeCutDrawable <- Resource_Styleable.Theme_actionModeCutDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeFindDrawable <- Resource_Styleable.Theme_actionModeFindDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModePasteDrawable <- Resource_Styleable.Theme_actionModePasteDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModePopupWindowStyle <- Resource_Styleable.Theme_actionModePopupWindowStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeSelectAllDrawable <- Resource_Styleable.Theme_actionModeSelectAllDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeShareDrawable <- Resource_Styleable.Theme_actionModeShareDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeSplitBackground <- Resource_Styleable.Theme_actionModeSplitBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeStyle <- Resource_Styleable.Theme_actionModeStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionModeWebSearchDrawable <- Resource_Styleable.Theme_actionModeWebSearchDrawable
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionOverflowButtonStyle <- Resource_Styleable.Theme_actionOverflowButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_actionOverflowMenuStyle <- Resource_Styleable.Theme_actionOverflowMenuStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_activityChooserViewStyle <- Resource_Styleable.Theme_activityChooserViewStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_alertDialogButtonGroupStyle <- Resource_Styleable.Theme_alertDialogButtonGroupStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_alertDialogCenterButtons <- Resource_Styleable.Theme_alertDialogCenterButtons
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_alertDialogStyle <- Resource_Styleable.Theme_alertDialogStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_alertDialogTheme <- Resource_Styleable.Theme_alertDialogTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_android_windowAnimationStyle <- Resource_Styleable.Theme_android_windowAnimationStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_android_windowIsFloating <- Resource_Styleable.Theme_android_windowIsFloating
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_autoCompleteTextViewStyle <- Resource_Styleable.Theme_autoCompleteTextViewStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_borderlessButtonStyle <- Resource_Styleable.Theme_borderlessButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonBarButtonStyle <- Resource_Styleable.Theme_buttonBarButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonBarNegativeButtonStyle <- Resource_Styleable.Theme_buttonBarNegativeButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonBarNeutralButtonStyle <- Resource_Styleable.Theme_buttonBarNeutralButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonBarPositiveButtonStyle <- Resource_Styleable.Theme_buttonBarPositiveButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonBarStyle <- Resource_Styleable.Theme_buttonBarStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonStyle <- Resource_Styleable.Theme_buttonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_buttonStyleSmall <- Resource_Styleable.Theme_buttonStyleSmall
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_checkboxStyle <- Resource_Styleable.Theme_checkboxStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_checkedTextViewStyle <- Resource_Styleable.Theme_checkedTextViewStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorAccent <- Resource_Styleable.Theme_colorAccent
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorButtonNormal <- Resource_Styleable.Theme_colorButtonNormal
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorControlActivated <- Resource_Styleable.Theme_colorControlActivated
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorControlHighlight <- Resource_Styleable.Theme_colorControlHighlight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorControlNormal <- Resource_Styleable.Theme_colorControlNormal
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorPrimary <- Resource_Styleable.Theme_colorPrimary
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorPrimaryDark <- Resource_Styleable.Theme_colorPrimaryDark
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_colorSwitchThumbNormal <- Resource_Styleable.Theme_colorSwitchThumbNormal
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_controlBackground <- Resource_Styleable.Theme_controlBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_dialogPreferredPadding <- Resource_Styleable.Theme_dialogPreferredPadding
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_dialogTheme <- Resource_Styleable.Theme_dialogTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_dividerHorizontal <- Resource_Styleable.Theme_dividerHorizontal
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_dividerVertical <- Resource_Styleable.Theme_dividerVertical
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_dropDownListViewStyle <- Resource_Styleable.Theme_dropDownListViewStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_dropdownListPreferredItemHeight <- Resource_Styleable.Theme_dropdownListPreferredItemHeight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_editTextBackground <- Resource_Styleable.Theme_editTextBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_editTextColor <- Resource_Styleable.Theme_editTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_editTextStyle <- Resource_Styleable.Theme_editTextStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_homeAsUpIndicator <- Resource_Styleable.Theme_homeAsUpIndicator
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listChoiceBackgroundIndicator <- Resource_Styleable.Theme_listChoiceBackgroundIndicator
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listDividerAlertDialog <- Resource_Styleable.Theme_listDividerAlertDialog
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listPopupWindowStyle <- Resource_Styleable.Theme_listPopupWindowStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listPreferredItemHeight <- Resource_Styleable.Theme_listPreferredItemHeight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listPreferredItemHeightLarge <- Resource_Styleable.Theme_listPreferredItemHeightLarge
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listPreferredItemHeightSmall <- Resource_Styleable.Theme_listPreferredItemHeightSmall
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listPreferredItemPaddingLeft <- Resource_Styleable.Theme_listPreferredItemPaddingLeft
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_listPreferredItemPaddingRight <- Resource_Styleable.Theme_listPreferredItemPaddingRight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_panelBackground <- Resource_Styleable.Theme_panelBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_panelMenuListTheme <- Resource_Styleable.Theme_panelMenuListTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_panelMenuListWidth <- Resource_Styleable.Theme_panelMenuListWidth
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_popupMenuStyle <- Resource_Styleable.Theme_popupMenuStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_popupWindowStyle <- Resource_Styleable.Theme_popupWindowStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_radioButtonStyle <- Resource_Styleable.Theme_radioButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_ratingBarStyle <- Resource_Styleable.Theme_ratingBarStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_searchViewStyle <- Resource_Styleable.Theme_searchViewStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_selectableItemBackground <- Resource_Styleable.Theme_selectableItemBackground
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_selectableItemBackgroundBorderless <- Resource_Styleable.Theme_selectableItemBackgroundBorderless
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_spinnerDropDownItemStyle <- Resource_Styleable.Theme_spinnerDropDownItemStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_spinnerStyle <- Resource_Styleable.Theme_spinnerStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_switchStyle <- Resource_Styleable.Theme_switchStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textAppearanceLargePopupMenu <- Resource_Styleable.Theme_textAppearanceLargePopupMenu
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textAppearanceListItem <- Resource_Styleable.Theme_textAppearanceListItem
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textAppearanceListItemSmall <- Resource_Styleable.Theme_textAppearanceListItemSmall
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle <- Resource_Styleable.Theme_textAppearanceSearchResultSubtitle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textAppearanceSearchResultTitle <- Resource_Styleable.Theme_textAppearanceSearchResultTitle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textAppearanceSmallPopupMenu <- Resource_Styleable.Theme_textAppearanceSmallPopupMenu
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textColorAlertDialogListItem <- Resource_Styleable.Theme_textColorAlertDialogListItem
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_textColorSearchUrl <- Resource_Styleable.Theme_textColorSearchUrl
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_toolbarNavigationButtonStyle <- Resource_Styleable.Theme_toolbarNavigationButtonStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_toolbarStyle <- Resource_Styleable.Theme_toolbarStyle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowActionBar <- Resource_Styleable.Theme_windowActionBar
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowActionBarOverlay <- Resource_Styleable.Theme_windowActionBarOverlay
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowActionModeOverlay <- Resource_Styleable.Theme_windowActionModeOverlay
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowFixedHeightMajor <- Resource_Styleable.Theme_windowFixedHeightMajor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowFixedHeightMinor <- Resource_Styleable.Theme_windowFixedHeightMinor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowFixedWidthMajor <- Resource_Styleable.Theme_windowFixedWidthMajor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowFixedWidthMinor <- Resource_Styleable.Theme_windowFixedWidthMinor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowMinWidthMajor <- Resource_Styleable.Theme_windowMinWidthMajor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowMinWidthMinor <- Resource_Styleable.Theme_windowMinWidthMinor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Theme_windowNoTitle <- Resource_Styleable.Theme_windowNoTitle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar <- Resource_Styleable.Toolbar
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_android_gravity <- Resource_Styleable.Toolbar_android_gravity
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_android_minHeight <- Resource_Styleable.Toolbar_android_minHeight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_collapseContentDescription <- Resource_Styleable.Toolbar_collapseContentDescription
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_collapseIcon <- Resource_Styleable.Toolbar_collapseIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_contentInsetEnd <- Resource_Styleable.Toolbar_contentInsetEnd
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_contentInsetLeft <- Resource_Styleable.Toolbar_contentInsetLeft
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_contentInsetRight <- Resource_Styleable.Toolbar_contentInsetRight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_contentInsetStart <- Resource_Styleable.Toolbar_contentInsetStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_logo <- Resource_Styleable.Toolbar_logo
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_logoDescription <- Resource_Styleable.Toolbar_logoDescription
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_maxButtonHeight <- Resource_Styleable.Toolbar_maxButtonHeight
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_navigationContentDescription <- Resource_Styleable.Toolbar_navigationContentDescription
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_navigationIcon <- Resource_Styleable.Toolbar_navigationIcon
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_popupTheme <- Resource_Styleable.Toolbar_popupTheme
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_subtitle <- Resource_Styleable.Toolbar_subtitle
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_subtitleTextAppearance <- Resource_Styleable.Toolbar_subtitleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_subtitleTextColor <- Resource_Styleable.Toolbar_subtitleTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_title <- Resource_Styleable.Toolbar_title
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginBottom <- Resource_Styleable.Toolbar_titleMarginBottom
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginEnd <- Resource_Styleable.Toolbar_titleMarginEnd
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginStart <- Resource_Styleable.Toolbar_titleMarginStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMarginTop <- Resource_Styleable.Toolbar_titleMarginTop
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleMargins <- Resource_Styleable.Toolbar_titleMargins
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextAppearance <- Resource_Styleable.Toolbar_titleTextAppearance
+                global.Xamarin.Forms.Platform.Resource.Styleable.Toolbar_titleTextColor <- Resource_Styleable.Toolbar_titleTextColor
+                global.Xamarin.Forms.Platform.Resource.Styleable.View <- Resource_Styleable.View
+                global.Xamarin.Forms.Platform.Resource.Styleable.View_android_focusable <- Resource_Styleable.View_android_focusable
+                global.Xamarin.Forms.Platform.Resource.Styleable.View_android_theme <- Resource_Styleable.View_android_theme
+                global.Xamarin.Forms.Platform.Resource.Styleable.View_paddingEnd <- Resource_Styleable.View_paddingEnd
+                global.Xamarin.Forms.Platform.Resource.Styleable.View_paddingStart <- Resource_Styleable.View_paddingStart
+                global.Xamarin.Forms.Platform.Resource.Styleable.View_theme <- Resource_Styleable.View_theme
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper <- Resource_Styleable.ViewBackgroundHelper
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_android_background <- Resource_Styleable.ViewBackgroundHelper_android_background
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_backgroundTint <- Resource_Styleable.ViewBackgroundHelper_backgroundTint
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode <- Resource_Styleable.ViewBackgroundHelper_backgroundTintMode
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat <- Resource_Styleable.ViewStubCompat
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_id <- Resource_Styleable.ViewStubCompat_android_id
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_inflatedId <- Resource_Styleable.ViewStubCompat_android_inflatedId
+                global.Xamarin.Forms.Platform.Resource.Styleable.ViewStubCompat_android_layout <- Resource_Styleable.ViewStubCompat_android_layout
 
 
     
@@ -47,6 +1543,42 @@ namespace IAintEvenAngry
         
         (* partial *)Resource_Attribute () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
+            // aapt resource value: 0x7f010017
+            static member ahBarColor = 2130771991
+            
+            // aapt resource value: 0x7f01001f
+            static member ahBarLength = 2130771999
+            
+            // aapt resource value: 0x7f01001e
+            static member ahBarWidth = 2130771998
+            
+            // aapt resource value: 0x7f01001c
+            static member ahCircleColor = 2130771996
+            
+            // aapt resource value: 0x7f01001b
+            static member ahDelayMillis = 2130771995
+            
+            // aapt resource value: 0x7f01001d
+            static member ahRadius = 2130771997
+            
+            // aapt resource value: 0x7f010018
+            static member ahRimColor = 2130771992
+            
+            // aapt resource value: 0x7f010019
+            static member ahRimWidth = 2130771993
+            
+            // aapt resource value: 0x7f01001a
+            static member ahSpinSpeed = 2130771994
+            
+            // aapt resource value: 0x7f010014
+            static member ahText = 2130771988
+            
+            // aapt resource value: 0x7f010015
+            static member ahTextColor = 2130771989
+            
+            // aapt resource value: 0x7f010016
+            static member ahTextSize = 2130771990
+            
             // aapt resource value: 0x7f010010
             static member ambientEnabled = 2130771984
             
@@ -236,13 +1768,25 @@ namespace IAintEvenAngry
             static member common_signin_btn_text_pressed_light = 2130837529
             
             // aapt resource value: 0x7f02001a
-            static member Icon = 2130837530
+            static member ic_errorstatus = 2130837530
             
             // aapt resource value: 0x7f02001b
-            static member powered_by_google_dark = 2130837531
+            static member ic_successstatus = 2130837531
             
             // aapt resource value: 0x7f02001c
-            static member powered_by_google_light = 2130837532
+            static member Icon = 2130837532
+            
+            // aapt resource value: 0x7f02001d
+            static member powered_by_google_dark = 2130837533
+            
+            // aapt resource value: 0x7f02001e
+            static member powered_by_google_light = 2130837534
+            
+            // aapt resource value: 0x7f02001f
+            static member roundedbg = 2130837535
+            
+            // aapt resource value: 0x7f020020
+            static member roundedbgdark = 2130837536
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -257,32 +1801,41 @@ namespace IAintEvenAngry
             // aapt resource value: 0x7f040005
             static member adjust_width = 2130968581
             
-            // aapt resource value: 0x7f040012
-            static member buttonCekPosisi = 2130968594
-            
-            // aapt resource value: 0x7f040009
-            static member buttonLogin = 2130968585
-            
-            // aapt resource value: 0x7f04000b
-            static member buttonOffline = 2130968587
-            
-            // aapt resource value: 0x7f04000c
-            static member buttonOnline = 2130968588
+            // aapt resource value: 0x7f040015
+            static member buttonCekPosisi = 2130968597
             
             // aapt resource value: 0x7f04000d
-            static member buttonVector = 2130968589
+            static member buttonLogin = 2130968589
             
-            // aapt resource value: 0x7f04000e
-            static member buttonXamPlug = 2130968590
+            // aapt resource value: 0x7f04000f
+            static member buttonOffline = 2130968591
             
-            // aapt resource value: 0x7f040008
-            static member editTextPassword = 2130968584
+            // aapt resource value: 0x7f040010
+            static member buttonOnline = 2130968592
             
-            // aapt resource value: 0x7f040007
-            static member editTextUsername = 2130968583
+            // aapt resource value: 0x7f040011
+            static member buttonVector = 2130968593
+            
+            // aapt resource value: 0x7f040012
+            static member buttonXamPlug = 2130968594
+            
+            // aapt resource value: 0x7f04000c
+            static member editTextPassword = 2130968588
+            
+            // aapt resource value: 0x7f04000b
+            static member editTextUsername = 2130968587
             
             // aapt resource value: 0x7f040004
             static member hybrid = 2130968580
+            
+            // aapt resource value: 0x7f040009
+            static member loadingImage = 2130968585
+            
+            // aapt resource value: 0x7f040007
+            static member loadingProgressBar = 2130968583
+            
+            // aapt resource value: 0x7f04000a
+            static member loadingProgressWheel = 2130968586
             
             // aapt resource value: 0x7f040000
             static member none = 2130968576
@@ -296,17 +1849,17 @@ namespace IAintEvenAngry
             // aapt resource value: 0x7f040003
             static member terrain = 2130968579
             
-            // aapt resource value: 0x7f04000a
-            static member textViewInformasi = 2130968586
+            // aapt resource value: 0x7f04000e
+            static member textViewInformasi = 2130968590
             
-            // aapt resource value: 0x7f040010
-            static member textViewLatitude = 2130968592
+            // aapt resource value: 0x7f040013
+            static member textViewLatitude = 2130968595
             
-            // aapt resource value: 0x7f040011
-            static member textViewLongitude = 2130968593
+            // aapt resource value: 0x7f040014
+            static member textViewLongitude = 2130968596
             
-            // aapt resource value: 0x7f04000f
-            static member textViewStatus = 2130968591
+            // aapt resource value: 0x7f040008
+            static member textViewStatus = 2130968584
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -326,13 +1879,22 @@ namespace IAintEvenAngry
         (* partial *)Resource_Layout () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
             // aapt resource value: 0x7f030000
-            static member Main = 2130903040
+            static member loading = 2130903040
             
             // aapt resource value: 0x7f030001
-            static member Map = 2130903041
+            static member loadingimage = 2130903041
             
             // aapt resource value: 0x7f030002
-            static member XamPlug = 2130903042
+            static member loadingprogress = 2130903042
+            
+            // aapt resource value: 0x7f030003
+            static member Main = 2130903043
+            
+            // aapt resource value: 0x7f030004
+            static member Map = 2130903044
+            
+            // aapt resource value: 0x7f030005
+            static member XamPlug = 2130903045
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -341,11 +1903,11 @@ namespace IAintEvenAngry
         
         (* partial *)Resource_String () =
             static do Android.Runtime.ResourceIdManager.UpdateIdValues()
-            // aapt resource value: 0x7f050024
-            static member ApplicationName = 2131034148
-            
             // aapt resource value: 0x7f050023
-            static member Hello = 2131034147
+            static member ApplicationName = 2131034147
+            
+            // aapt resource value: 0x7f050022
+            static member Hello = 2131034146
             
             // aapt resource value: 0x7f050001
             static member auth_google_play_services_client_facebook_display_name = 2131034113
@@ -449,8 +2011,8 @@ namespace IAintEvenAngry
             // aapt resource value: 0x7f050021
             static member common_signin_button_text_long = 2131034145
             
-            // aapt resource value: 0x7f050022
-            static member library_name = 2131034146
+            // aapt resource value: 0x7f050024
+            static member library_name = 2131034148
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
 
@@ -524,5 +2086,44 @@ namespace IAintEvenAngry
             
             // aapt resource value: 14
             static member MapAttrs_zOrderOnTop = 14
+            
+            [<Microsoft.FSharp.Core.DefaultValueAttribute(false)>]
+            static val mutable private ProgressWheel:int[]
+            
+            // aapt resource value: 3
+            static member ProgressWheel_ahBarColor = 3
+            
+            // aapt resource value: 11
+            static member ProgressWheel_ahBarLength = 11
+            
+            // aapt resource value: 10
+            static member ProgressWheel_ahBarWidth = 10
+            
+            // aapt resource value: 8
+            static member ProgressWheel_ahCircleColor = 8
+            
+            // aapt resource value: 7
+            static member ProgressWheel_ahDelayMillis = 7
+            
+            // aapt resource value: 9
+            static member ProgressWheel_ahRadius = 9
+            
+            // aapt resource value: 4
+            static member ProgressWheel_ahRimColor = 4
+            
+            // aapt resource value: 5
+            static member ProgressWheel_ahRimWidth = 5
+            
+            // aapt resource value: 6
+            static member ProgressWheel_ahSpinSpeed = 6
+            
+            // aapt resource value: 0
+            static member ProgressWheel_ahText = 0
+            
+            // aapt resource value: 1
+            static member ProgressWheel_ahTextColor = 1
+            
+            // aapt resource value: 2
+            static member ProgressWheel_ahTextSize = 2
             (* Member of type 'CodeTypeConstructor' is not supported by the CodeDOM provider and was omitted *)
 
