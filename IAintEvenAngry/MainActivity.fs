@@ -39,4 +39,5 @@ type MainActivity () =
         )
 
     member this.Authenticate (username: string) (password: string) =
+        // Somebody, please create a decent server.
         username.Equals("ibnu") && password.Equals("asdf")

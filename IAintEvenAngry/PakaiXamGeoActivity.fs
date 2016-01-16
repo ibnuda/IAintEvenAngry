@@ -22,6 +22,7 @@ type PakaiXamGeoActivity () =
 
     this.SetContentView(Resource_Layout.XamPlug)
 
+    (*
     let locator = CrossGeolocator.Current
     locator.DesiredAccuracy <- 50.0
     // let! posisi = await locator.GetPositionAsync(timeoutMilliseconds: 10000)
@@ -41,3 +42,4 @@ type PakaiXamGeoActivity () =
         tvLat.Text <- position.Latitude.ToString ()
         tvLong.Text <- position.Longitude.ToString ()
     )
+    *)
